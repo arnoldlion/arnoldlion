@@ -1,0 +1,57 @@
+$bigfullscreen: 1900px;
+$fullscreen: 1520px;
+$mobile: 768px;
+.breadcrumbs {
+  margin-top: 1vw;
+  @media screen and (min-width: $fullscreen) {
+    margin-top: 15px;
+  }
+  @media screen and (max-width: $mobile) {
+    margin-top: 16.3vw;
+  }
+}
+.breadcrumbs_link {
+  font-size: 1.25vw;
+  line-height: 2.1vw;
+  position: relative;
+  padding-right: 1.4vw;
+  transition: all 0.5s ease;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0.8vw;
+    right: 0;
+    width: 0.9vw;
+    height: 0.9vw;
+    background-image: url(../../svg/triangle_icon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  &:hover {
+    color: #686868;
+    transition: all 0.5s ease;
+  }
+  @media screen and (min-width: $fullscreen) {
+    font-size: 19px;
+    line-height: 32px;
+    padding-right: 21px;
+    &::after {
+      top: 12px;
+      width: 14px;
+      height: 14px;
+    }
+  }
+  @media screen and (max-width: $mobile) {
+    font-size: 3.4vw;
+    line-height: 5.1vw;
+    padding-right: 4.4vw;
+    &::after {
+      top: 1.2vw;
+      width: 3vw;
+      height: 3vw;
+    }
+    &:hover {
+      color: #000000;
+    }
+  }
+}
