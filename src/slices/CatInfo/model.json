@@ -1,0 +1,128 @@
+{
+  "id": "cat_info",
+  "type": "SharedSlice",
+  "name": "CatInfo",
+  "description": "CatInfo",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "h1_title": {
+          "type": "Text",
+          "config": {
+            "label": "h1 title",
+            "placeholder": ""
+          }
+        },
+        "sub_title": {
+          "type": "Text",
+          "config": {
+            "label": "sub title",
+            "placeholder": ""
+          }
+        },
+        "img1_catlog": {
+          "type": "Image",
+          "config": {
+            "label": "img1 catlog",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "img2_mobile": {
+          "type": "Image",
+          "config": {
+            "label": "img2 mobile",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "img3_desktop": {
+          "type": "Image",
+          "config": {
+            "label": "img3 desktop",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "gallery": {
+          "type": "Group",
+          "config": {
+            "label": "gallery",
+            "repeat": true,
+            "fields": {
+              "gallery_img": {
+                "type": "Image",
+                "config": {
+                  "label": "gallery img ",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              }
+            }
+          }
+        },
+        "price": {
+          "type": "Text",
+          "config": {
+            "label": "price",
+            "placeholder": ""
+          }
+        },
+        "age": {
+          "type": "Text",
+          "config": {
+            "label": "age",
+            "placeholder": ""
+          }
+        },
+        "gender": {
+          "type": "Select",
+          "config": {
+            "label": "gender",
+            "placeholder": "",
+            "options": [
+              "Male",
+              "Female",
+              "Bisexual :)"
+            ],
+            "default_value": "Male"
+          }
+        },
+        "short_description": {
+          "type": "Text",
+          "config": {
+            "label": "short description",
+            "placeholder": ""
+          }
+        },
+        "status": {
+          "type": "Select",
+          "config": {
+            "label": "status",
+            "placeholder": "",
+            "options": [
+              "Available",
+              "Reserved",
+              "Sold"
+            ],
+            "default_value": "Available"
+          }
+        },
+        "html_description": {
+          "type": "Text",
+          "config": {
+            "label": "html description",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
