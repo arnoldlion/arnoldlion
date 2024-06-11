@@ -2,7 +2,7 @@ import Layout from "@/components/layout";
 import { dmSerifDisplay } from '@/components/fonts';
 import Image from "next/image";
 import styles from "@/components/styles/kitten.module.scss";
-import { BreadcrumbsAvailableKittens } from '@/subitems/breadcrumbs/available-kittens.js';
+import { BreadcrumbsSoldKittens } from '@/subitems/breadcrumbs/sold-kittens.js';
 import { useInView } from "react-intersection-observer";
 
 
@@ -13,7 +13,7 @@ export default function Himberry1() {
   return (
     <Layout>
       <div className={styles.kitten_content}>
-        <BreadcrumbsAvailableKittens />
+        <BreadcrumbsSoldKittens />
         <h1 className={dmSerifDisplay + " " + styles.kitten_title}>Himberry Arnold Lion</h1>
         <div className={styles.kitten_intro}>
           <Image
