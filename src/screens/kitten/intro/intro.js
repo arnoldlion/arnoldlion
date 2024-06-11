@@ -8,7 +8,7 @@ export const Intro = ({firstSlice}) => {
     const [ref, inView] = useInView({
         triggerOnce: true,
     });
-
+   const isSold =firstSlice.status==="Sold"
     return <div className={styles.kitten_intro}>
         <Image
             src={firstSlice?.img3_desktop?.url}
@@ -26,10 +26,11 @@ export const Intro = ({firstSlice}) => {
         />
         <div className={styles.kitten_intro_hello + " " + (inView ? `${styles.active}` : "")}>
             <div className={styles.kitten_intro_top}>
-                <p className={styles.kitten_intro_text_p}> {firstSlice?.short_description + firstSlice?.gender + firstSlice?.age}</p>
+                <p className={styles.kitten_intro_text_p}> {firstSlice?.short_description  }</p>
             </div>
             <div ref={ref} className={styles.kitten_intro_bottom}>
-                <p className={styles.kitten_intro_price}>${firstSlice?.price}</p>
+
+                {!isSold&&<p className={styles.kitten_intro_price}>${firstSlice?.price}</p>}
                 <p className={styles.kitten_intro_status + " " + styles?.[STATUSES_CLASSNAMES[firstSlice?.status?.toLowerCase()]]}></p>
             </div>
         </div>

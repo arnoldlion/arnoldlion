@@ -1,11 +1,12 @@
 import Layout from "@/components/layout";
 import styles from "@/components/styles/kitten.module.scss";
-import {BreadcrumbsAvailableKittens} from "@/subitems/breadcrumbs/available-kittens";
+
 import {dmSerifDisplay} from "@/components/fonts";
 
 import {Descr} from "@/screens/kitten/descr/descr";
 import {Gallery} from "@/screens/kitten/gallery/gallery";
 import {Intro} from "@/screens/kitten/intro/intro";
+import {Breadcrumbs} from "@/subitems/breadcrumbs/Breadcrumbs";
 
 export const Kitten =({data})=>{
 
@@ -13,7 +14,7 @@ export const Kitten =({data})=>{
 
     return     <Layout>
         <div className={styles.kitten_content}>
-            <BreadcrumbsAvailableKittens />
+            <Breadcrumbs isSold={firstSlice.status==="Sold"} />
             <h1 className={dmSerifDisplay + " " + styles.kitten_title}>{firstSlice.h1_title}</h1>
                     <Intro firstSlice={firstSlice}/>
                  <Gallery firstSlice={firstSlice}/>
