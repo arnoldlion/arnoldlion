@@ -30,9 +30,7 @@ export const Intro = ({firstSlice}) => {
             </div>
             <div ref={ref} className={styles.kitten_intro_bottom}>
                 <p className={styles.kitten_intro_price}>${firstSlice?.price}</p>
-
                 <p className={styles.kitten_intro_status + " " + styles?.[STATUSES_CLASSNAMES[firstSlice?.status?.toLowerCase()]]}></p>
-
             </div>
         </div>
     </div>
@@ -40,7 +38,7 @@ export const Intro = ({firstSlice}) => {
 };
 
 const STATUSES_CLASSNAMES = {
-    "active":"kitten_intro_status_active",
+    "available":"kitten_intro_status_active",
     "reserved":"kitten_intro_status_reserved",
     "sold":"kitten_intro_status_sold",
 }

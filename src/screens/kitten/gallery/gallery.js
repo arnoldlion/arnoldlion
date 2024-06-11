@@ -6,7 +6,7 @@ import Image from "next/image";
 export const Gallery = ({firstSlice}) => {
     return <div className={styles.kitten_gallery}>
         {firstSlice?.gallery?.map((photo,i)=>{
-            console.log(photo)
+
             return     <Image
                 key={i}
                 src={photo?.gallery_img?.url}

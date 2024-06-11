@@ -10,7 +10,7 @@ import {Intro} from "@/screens/kitten/intro/intro";
 export const Kitten =({data})=>{
 
     const firstSlice = data?.[0]?.primary
-    console.log(firstSlice)
+
     return     <Layout>
         <div className={styles.kitten_content}>
             <BreadcrumbsAvailableKittens />
