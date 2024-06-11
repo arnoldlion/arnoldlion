@@ -88,8 +88,7 @@
             "placeholder": "",
             "options": [
               "Male",
-              "Female",
-              "Bisexual :)"
+              "Female"
             ],
             "default_value": "Male"
           }
