@@ -5,10 +5,10 @@ import Link from "next/link";
 import Image from "next/image";
 import {Fragment} from "react";
 
-export const Catalog =({cats , title})=>{
+export const Catalog =({cats , title , isSold})=>{
     return   <Layout>
         <h1 className={dmSerifDisplay + " " + styles.title}>{title}</h1>
-        <div className={styles.catalog_items}>
+        <div className={styles.catalog_items +" "+ (isSold? styles.catalog_sold_items:" ")}>
             {
                 cats?.map((cat, i )=>{
 
