@@ -278,12 +278,16 @@ $mobile: 768px;
 .kitten_intro {
   display: flex;
   overflow: hidden;
-  margin-bottom: 0.6vw;
+  margin-bottom: 0.7vw;
   position: relative;
   @media screen and (min-width: $fullscreen) {
-    margin-bottom: 9px;
+    margin-bottom: 11px;
+  }
+  @media screen and (min-width: $bigfullscreen) {
+    max-height: 800px;
   }
   @media screen and (max-width: $mobile) {
+    display: block;
     margin-bottom: 0;
     padding-bottom: 23.9vw;
   }
@@ -292,7 +296,11 @@ $mobile: 768px;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 24px;
+  border-radius: 24px 0 0 24px;
+  width: 44.8vw;
+  @media screen and (min-width: $bigfullscreen) {
+    width: 851px;
+  }
   @media screen and (max-width: $mobile) {
     display: none;
   }
@@ -308,12 +316,14 @@ $mobile: 768px;
   }
 }
 .kitten_intro_hello {
+  display: flex;
+  justify-content: center;
   position: absolute;
-  right: 2.5vw;
-  bottom: 0;
+  right: -4vw;
   z-index: 1;
-  width: 28.2vw;
-  padding: 3vw 2.7vw 1.8vw 2vw;
+  width: 30.7vw;
+  height: 100%;
+  padding: 2vw 3.5vw;
   &::before {
     content: "";
     position: absolute;
@@ -326,31 +336,45 @@ $mobile: 768px;
     border-radius: 26px;
   }
   &.active {
-    bottom: 2.8vw;
+    right: 0;
     transition: all 0.5s ease;
   }
   @media screen and (min-width: $fullscreen) {
-    right: 38px;
-    width: 429px;
-    padding: 46px 41px 27px 30px;
-    &.active {
-      bottom: 43px;
-    }
+    right: 61px;
+    padding: 30px 53px;
+  }
+  @media screen and (min-width: $bigfullscreen) {
+    width: 583px;
   }
   @media screen and (max-width: $mobile) {
     right: 5.5vw;
+    bottom: 0;
     z-index: 1;
     width: 75.6vw;
+    height: auto;
     padding: 7.5vw 5.6vw 6.9vw 5.1vw;
     &.active {
       bottom: 8.9vw;
+      right: 5.5vw;
     }
   }
 }
-.kitten_intro_top {
-  margin-bottom: 2.4vw;
+.kitten_intro_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
   @media screen and (min-width: $fullscreen) {
-    margin-bottom: 36px;
+    max-width: 360px;
+  }
+  @media screen and (max-width: $mobile) {
+    height: auto;
+  }
+}
+.kitten_intro_top {
+  margin-bottom: 3vw;
+  @media screen and (min-width: $fullscreen) {
+    margin-bottom: 46px;
   }
   @media screen and (max-width: $mobile) {
     margin-bottom: 5vw;

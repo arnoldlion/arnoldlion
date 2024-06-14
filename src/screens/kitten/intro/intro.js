@@ -10,29 +10,34 @@ export const Intro = ({firstSlice}) => {
     });
    const isSold =firstSlice.status==="Sold"
     return <div className={styles.kitten_intro}>
-        <Image
-            src={firstSlice?.img3_desktop?.url}
-            width={200}
-            height={200}
-            alt="Kitten Himberry"
-            className={styles.kitten_intro_img}
-        />
-        <Image
-            src={firstSlice?.img2_mobile?.url}
-            width={200}
-            height={200}
-            alt="Kitten Himberry"
-            className={styles.kitten_intro_img_mob}
-        />
+        <div className={styles.kitten_intro_imgs}>
+            <Image
+                src={firstSlice?.img3_desktop?.url}
+                width={200}
+                height={200}
+                alt="Kitten Himberry"
+                className={styles.kitten_intro_img}
+            />
+            <Image
+                src={firstSlice?.img2_mobile?.url}
+                width={200}
+                height={200}
+                alt="Kitten Himberry"
+                className={styles.kitten_intro_img_mob}
+            />
+        </div>
         <div className={styles.kitten_intro_hello + " " + (inView ? `${styles.active}` : "")}>
-            <div className={styles.kitten_intro_top}>
-                <p className={styles.kitten_intro_text_p}> {firstSlice?.short_description  }</p>
-            </div>
-            <div ref={ref} className={styles.kitten_intro_bottom}>
+            <div className={styles.kitten_intro_wrap}>
+                <div className={styles.kitten_intro_top}>
+                    <p className={styles.kitten_intro_text_p}> {firstSlice?.short_description  }</p>
+                </div>
+                <div ref={ref} className={styles.kitten_intro_bottom}>
 
-                {!isSold&&<p className={styles.kitten_intro_price}>${firstSlice?.price}</p>}
-                <p className={styles.kitten_intro_status + " " + styles?.[STATUSES_CLASSNAMES[firstSlice?.status?.toLowerCase()]]}></p>
+                    {!isSold&&<p className={styles.kitten_intro_price}>${firstSlice?.price}</p>}
+                    <p className={styles.kitten_intro_status + " " + styles?.[STATUSES_CLASSNAMES[firstSlice?.status?.toLowerCase()]]}></p>
+                </div>
             </div>
+            
         </div>
     </div>
 
