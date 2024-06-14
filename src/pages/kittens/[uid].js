@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { createClient } from "@/prismicio";
 
 import {Kitten} from "@/screens/kitten/kitten";
+import {METADATA} from "@/components/meta";
 
 export default function Page({ page }) {
     if (!page) {
@@ -13,15 +14,19 @@ export default function Page({ page }) {
     return (
         <>
             <Head>
-                <title>{page.data.meta_title}</title>
-                <meta name="description" content={page.data.meta_description} />
+                <title>{page?.data?.meta_title ||METADATA.title}</title>
+                <meta name="description" content={page?.data?.meta_description ||METADATA.description}/>
+                <meta property="og:image" content={page?.data?.meta_image?.url ||METADATA.img}/>
+                <meta property="og:title" content={page?.data?.meta_title ||METADATA.title}/>
+                <meta property="og:description" content={page?.data?.meta_description ||METADATA.description}/>
+
             </Head>
-            <Kitten data={page.data.slices}  />
+            <Kitten data={page.data.slices}/>
         </>
     );
 }
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps({params}) {
 
     const client = createClient();
     const page = await client.getByUID("cat", params.uid).catch(() => null);

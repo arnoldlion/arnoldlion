@@ -1,9 +1,4 @@
-import Layout from "@/components/layout";
-import { dmSerifDisplay } from '@/components/fonts';
-import Link from 'next/link';
-import Image from "next/image";
-import styles from "@/components/styles/kitten.module.scss";
-import {Fragment, useEffect} from "react";
+
 import { createClient } from "@/prismicio";
 import {Catalog} from "@/components/Catalog";
 
