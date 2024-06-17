@@ -1,5 +1,8 @@
 export const METADATA = {
-    title :" Arnold",
-    description : " kittens is cool ",
-    img:"/favicon.png"
+    titleHome:" Arnold",
+    descriptionHome: " kittens is cool ",
+    imgHome:"/favicon.png",
+    titleAbout:" Arnold About",
+    descriptionAbout: " About kittens is cool ",
+    imgAbout: "/images/himberry/00_himberry.jpg"
 }

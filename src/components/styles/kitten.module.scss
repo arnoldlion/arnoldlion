@@ -292,14 +292,17 @@ $mobile: 768px;
     padding-bottom: 23.9vw;
   }
 }
+.kitten_intro_imgs {
+  display: flex;
+}
 .kitten_intro_img {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
   border-radius: 24px 0 0 24px;
   width: 44.8vw;
+  height: 42vw;
   @media screen and (min-width: $bigfullscreen) {
     width: 851px;
+    height: 798px;
   }
   @media screen and (max-width: $mobile) {
     display: none;
@@ -313,13 +316,14 @@ $mobile: 768px;
   border-radius: 24px;
   @media screen and (max-width: $mobile) {
     display: block;
+    height: 116.5vw;
   }
 }
 .kitten_intro_hello {
   display: flex;
   justify-content: center;
   position: absolute;
-  right: -4vw;
+  right: 0;
   z-index: 1;
   width: 30.7vw;
   height: 100%;
@@ -335,12 +339,7 @@ $mobile: 768px;
     z-index: -1;
     border-radius: 26px;
   }
-  &.active {
-    right: 0;
-    transition: all 0.5s ease;
-  }
   @media screen and (min-width: $fullscreen) {
-    right: 61px;
     padding: 30px 53px;
   }
   @media screen and (min-width: $bigfullscreen) {
@@ -348,15 +347,11 @@ $mobile: 768px;
   }
   @media screen and (max-width: $mobile) {
     right: 5.5vw;
-    bottom: 0;
+    bottom: 8.9vw;
     z-index: 1;
     width: 75.6vw;
     height: auto;
     padding: 7.5vw 5.6vw 6.9vw 5.1vw;
-    &.active {
-      bottom: 8.9vw;
-      right: 5.5vw;
-    }
   }
 }
 .kitten_intro_wrap {

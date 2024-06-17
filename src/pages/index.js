@@ -13,11 +13,11 @@ export default function Home({cats}) {
   return (
       <>
           <Head>
-              <title>{ METADATA.title}</title>
-              <meta name="description" content={   METADATA.description}/>
-              <meta property="og:image" content={  METADATA.img}/>
-              <meta property="og:title" content={ METADATA.title}/>
-              <meta property="og:description" content={ METADATA.description}/>
+              <title>{ METADATA.titleHome}</title>
+              <meta name="description" content={   METADATA.descriptionHome}/>
+              <meta property="og:image" content={  METADATA.imgHome}/>
+              <meta property="og:title" content={ METADATA.titleHome}/>
+              <meta property="og:description" content={ METADATA.descriptionHome}/>
 
           </Head>
           <Layout>
@@ -25,8 +25,9 @@ export default function Home({cats}) {
               <div className={styles.index_text}>
                   <p className={styles.index_p}>The Maine Coon is a long-haired cat. The coat is soft and silky, the texture may vary depending on the coat color and breed type. The length of the hair on the head and shoulders is shorter, on the stomach and sides it is longer, and some cats have a developed decorative mane on the neck.</p>
                   <p className={styles.index_p}>Like many native breeds, the Maine Coons can be of any color typical of ordinary domestic cats, but artificial colors that indicate possible admixture of other breeds, such as chocolate, lavender, color point or tipping, are not accepted in all federations. For example, color point in Maine Coon colors is accepted only by TICA. The most common pattern in the breed is the brown and smoky tabby, known in Russia as the “wild” color.</p>
-                  <CatalogList cats={cats}/>
+                  
               </div>
+              <CatalogList cats={cats}/>
           </Layout>
       </>
 

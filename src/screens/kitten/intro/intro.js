@@ -13,15 +13,15 @@ export const Intro = ({firstSlice}) => {
         <div className={styles.kitten_intro_imgs}>
             <Image
                 src={firstSlice?.img3_desktop?.url}
-                width={200}
-                height={200}
+                width={400}
+                height={400}
                 alt="Kitten Himberry"
                 className={styles.kitten_intro_img}
             />
             <Image
                 src={firstSlice?.img2_mobile?.url}
-                width={200}
-                height={200}
+                width={400}
+                height={400}
                 alt="Kitten Himberry"
                 className={styles.kitten_intro_img_mob}
             />
