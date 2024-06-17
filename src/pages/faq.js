@@ -5,19 +5,19 @@ import {METADATA} from "@/components/meta";
 import { dmSerifDisplay } from '@/components/fonts';
 
 
-export default function About() {
+export default function Faq() {
   return (
     <>
       <Head>
-        <title>{ METADATA.titleAbout}</title>
-        <meta name="description" content={   METADATA.descriptionAbout}/>
-        <meta property="og:image" content={  METADATA.imgAbout}/>
-        <meta property="og:title" content={ METADATA.titleAbout}/>
-        <meta property="og:description" content={ METADATA.descriptionAbout}/>
+        <title>{ METADATA.titleFaq}</title>
+        <meta name="description" content={   METADATA.descriptionFaq}/>
+        <meta property="og:image" content={  METADATA.imgFaq}/>
+        <meta property="og:title" content={ METADATA.titleFaq}/>
+        <meta property="og:description" content={ METADATA.descriptionFaq}/>
 
       </Head>
       <Layout>
-        <h1 className={dmSerifDisplay + " " + styles.about_title}>About Us</h1>
+        <h1 className={dmSerifDisplay + " " + styles.about_title}>Faq</h1>
         <div className={styles.about_text}>
           <p className={styles.about_p}>The Maine Coon is a long-haired cat. The coat is soft and silky, the texture may vary depending on the coat color and breed type. The length of the hair on the head and shoulders is shorter, on the stomach and sides it is longer, and some cats have a developed decorative mane on the neck.</p>
           <p className={styles.about_p}>Like many native breeds, the Maine Coons can be of any color typical of ordinary domestic cats, but artificial colors that indicate possible admixture of other breeds, such as chocolate, lavender, color point or tipping, are not accepted in all federations. For example, color point in Maine Coon colors is accepted only by TICA. The most common pattern in the breed is the brown and smoky tabby, known in Russia as the “wild” color.</p>
