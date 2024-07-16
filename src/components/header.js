@@ -49,9 +49,6 @@ const Header = () => {
         <div className="header__div_logo">
           <a href="/" className="header_logo"></a>
         </div>
-        {/* <ScrollContainer className="scroll-container"> */}
-          
-        {/* </ScrollContainer> */}
         <SimpleBar forceVisible="true" autoHide={false} className="simplebar-header">
           <div className="header_nav">
             <Link href="/available-kittens" className={`header_nav_link header_nav_link_available ${pathname === '/available-kittens' ? 'active' : ''}`}>Available kittens</Link>

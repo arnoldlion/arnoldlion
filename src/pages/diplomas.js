@@ -67,8 +67,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma1}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -79,8 +78,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma2}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -91,8 +89,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma3}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -103,8 +100,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma4}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -115,8 +111,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma5}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -127,8 +122,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma6}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -139,8 +133,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma7}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -151,8 +144,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma8}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -163,8 +155,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma9}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -175,8 +166,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma10}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -187,8 +177,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma11}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -199,8 +188,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma12}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -211,8 +199,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma13}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -223,8 +210,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma14}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -235,8 +221,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma15}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -247,8 +232,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma16}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -259,8 +243,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma17}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -271,8 +254,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma18}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -283,8 +265,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma19}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -295,8 +276,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma20}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -307,8 +287,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma21}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -319,8 +298,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma22}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -331,8 +309,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma23}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -343,8 +320,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma24}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -355,8 +331,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma25}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -367,8 +342,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma26}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -379,8 +353,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma27}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -391,8 +364,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma28}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -403,8 +375,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma29}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -415,8 +386,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma30}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -427,8 +397,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma31}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -439,8 +408,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma32}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -451,8 +419,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma33}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -463,8 +430,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma34}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"
@@ -475,8 +441,7 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma35}
-                  width={400}
-                  height={400}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
                   placeholder="blur"

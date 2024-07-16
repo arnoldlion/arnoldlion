@@ -215,7 +215,8 @@ span {
 .header_logo {
   width: 17.9vw;
   height: 11.7vw;
-  background-image: url(../../svg/logo.svg);
+  // background-image: url(../../svg/logo.svg);
+  background-image: url(../../images/logo.png);
   background-size: contain;
   background-repeat: no-repeat;
   @media screen and (min-width: $fullscreen) {
