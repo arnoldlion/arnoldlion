@@ -7,7 +7,9 @@ import {CatalogList} from "@/components/CatalogList";
 export const Catalog =({cats , title , isSold})=>{
     return   <Layout>
         <h1 className={dmSerifDisplay + " " + styles.title}>{title}</h1>
-        <CatalogList cats={cats}   isSold={isSold}/>
+        <div className="content">
+            <CatalogList cats={cats}   isSold={isSold}/>
+        </div>
     </Layout>
 }
 export const STATUSES_CLASSNAMES = {

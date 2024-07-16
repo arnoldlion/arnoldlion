@@ -24,15 +24,15 @@ $mobile: 768px;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 1fr;
   grid-gap: 0.5vw;
-  margin-bottom: 3.6vw;
+  margin-bottom: 2.7vw;
   @media screen and (min-width: $fullscreen) {
     grid-gap: 8px;
-    margin-bottom: 55px;
+    margin-bottom: 41px;
   }
   @media screen and (max-width: $mobile) {
     grid-template-columns: 1fr;
     grid-gap: 2.4vw;
-    margin-bottom: 10vw;
+    margin-bottom: 6vw;
   }
 }
 .catalog_sold_items {

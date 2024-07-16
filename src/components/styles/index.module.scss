@@ -49,6 +49,42 @@ $mobile: 768px;
     margin-bottom: 2.5vw;
   }
 }
+.index_catalog {
+  margin-bottom: 4.4vw;
+  @media screen and (min-width: $fullscreen) {
+    margin-bottom: 67px;
+  }
+  @media screen and (max-width: $mobile) {
+    margin-bottom: 10vw;
+  }
+}
+.index_link {
+  font-size: 1.45vw;
+  line-height: 1.8vw;
+  padding: 1.1vw 3.7vw;
+  border-radius: 16px;
+  border: 1px solid #000000;
+  transition: all 0.5s ease;
+  &:hover {
+    border: 1px solid #D9D9D9;
+    transition: all 0.5s ease;
+  }
+  @media screen and (min-width: $fullscreen) {
+    font-size: 22px;
+    line-height: 27px;
+    padding: 17px 56px;
+  }
+  @media screen and (max-width: $mobile) {
+    width: 100%;
+    font-size: 4.5vw;
+    line-height: 5.1vw;
+    padding: 4.5vw;
+    text-align: center;
+    &:hover {
+      border: 1px solid #000000;
+    }
+  }
+}
 .index_diplomas {
   border: 1px solid #D9D9D9;
   border-radius: 24px;
