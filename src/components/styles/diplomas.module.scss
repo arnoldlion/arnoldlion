@@ -1,0 +1,44 @@
+$bigfullscreen: 1900px;
+$fullscreen: 1520px;
+$mobile: 768px;
+.diploma_title {
+  font-size: 2.9vw;
+  line-height: 4.2vw;
+  margin-top: 3.1vw;
+  margin-bottom: 1.5vw;
+  @media screen and (min-width: $fullscreen) {
+    font-size: 44px;
+    line-height: 64px;
+    margin-top: 47px;
+    margin-bottom: 23px;
+  }
+  @media screen and (max-width: $mobile) {
+    font-size: 7.5vw;
+    line-height: 8.9vw;
+    margin-top: 21.7vw;
+    margin-bottom: 4.2vw;
+  }
+}
+.diplomas_grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 0.5vw;
+  @media screen and (min-width: $fullscreen) {
+    grid-gap: 8px;
+  }
+  @media screen and (max-width: $mobile) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5vw;
+  }
+}
+.diplomas_link {
+  display: inline-block;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.diplomas_item_img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}

@@ -32,7 +32,7 @@ $mobile: 768px;
   @media screen and (max-width: $mobile) {
     grid-template-columns: 1fr;
     grid-gap: 2.4vw;
-    margin-bottom: 18.8vw;
+    margin-bottom: 10vw;
   }
 }
 .catalog_sold_items {

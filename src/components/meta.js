@@ -11,6 +11,10 @@ export const METADATA = {
     descriptionDoc: "Doc kittens is cool",
     imgDoc: "/images/himberry/00_himberry.jpg",
     
+    titleDiplom: "Arnold Diploma",
+    descriptionDiplom: "Doc kittens is cool",
+    imgDiplom: "/images/himberry/00_himberry.jpg",
+
     titleFaq: "Arnold Faq",
     descriptionFaq: "Faq kittens is cool",
     imgFaq: "/images/himberry/00_himberry.jpg",

@@ -1,0 +1,91 @@
+$bigfullscreen: 1900px;
+$fullscreen: 1520px;
+$mobile: 768px;
+.diplomas_grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 17.2vw;
+  grid-gap: 0.6vw;
+  position: relative;
+  @media screen and (min-width: $fullscreen) {
+    grid-gap: 9px;
+  }
+  @media screen and (min-width: $bigfullscreen) {
+    grid-template-rows: 327px;
+  }
+  @media screen and (max-width: $mobile) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 36.5vw auto;
+    grid-gap: 7vw 1.4vw;
+  }
+}
+.diplomas_item {
+  border-radius: 16px;
+  overflow: hidden;
+  @media screen and (max-width: $mobile) {
+    &:nth-child(4) {
+      display: none;
+    }
+  }
+}
+.diplomas_item_img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.diplomas_cup_mob {
+  display: none;
+  @media screen and (max-width: $mobile) {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 5.3vw;
+    background-repeat: no-repeat;
+    background-size: 15.4vw;
+    background-image: url(../../svg/diploma_cup_mob.svg);
+    width: 15.4vw;
+    height: 15.2vw;
+  }
+}
+.diplomas_item_cup {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 16px;
+  background-color: #272727;
+  padding-bottom: 1.7vw;
+  background-image: url(../../svg/diploma_cup.svg);
+  background-repeat: no-repeat;
+  background-position: top 4.3vw center;
+  background-size: 6.6vw;
+  transition: all 0.5s ease;
+  &:hover {
+    background-color: #000000;
+    transition: all 0.5s ease;
+  }
+  @media screen and (min-width: $fullscreen) {
+    padding-bottom: 26px;
+    background-position: center;
+    background-size: 100px;
+  }
+  @media screen and (max-width: $mobile) {
+    grid-column: 1/4;
+    align-items: center;
+    padding: 4vw 0;
+    background-image: none;
+  }
+}
+
+.diplomas_item_cup_p {
+  font-size: 1.45vw;
+  line-height: 1.8vw;
+  color: #FFFFFF;
+  @media screen and (min-width: $fullscreen) {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  @media screen and (max-width: $mobile) {
+    font-size: 4.6vw;
+    line-height: 6.3vw;
+  }
+}

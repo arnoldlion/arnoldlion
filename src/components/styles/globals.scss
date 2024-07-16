@@ -230,9 +230,9 @@ span {
 .header_nav {
   display: flex;
   flex-direction: column;
-  padding: 0 2.9vw 2.7vw 0;
+  padding: 0 2.9vw 0 0;
   @media screen and (min-width: $fullscreen) {
-    padding: 0 44px 41px 0;
+    padding: 0 44px 0 0;
   }
   @media screen and (max-width: $mobile) {
     padding: 0 10vw 8vw 0;
@@ -665,4 +665,49 @@ footer {
       color: #000000;
     }
   }
+}
+.content {
+  margin-bottom: 5vw;
+  @media screen and (min-width: $fullscreen) {
+    margin-bottom: 76px;
+  }
+  @media screen and (max-width: $mobile) {
+    margin-bottom: 12vw;
+  }
+}
+.simplebar-header {
+  height: calc(100vh - 27.8vw);
+  .simplebar-track.simplebar-vertical {
+    width: 9px;
+    right: 1px;
+  }
+  @media screen and (min-width: $fullscreen) {
+    height: calc(100vh - 423px);
+  }
+  @media screen and (max-width: $mobile) {
+
+  }
+}
+.simplebar-vertical {
+  .simplebar-scrollbar {
+    &::before {
+      background-color: #bababa;
+    }
+  }
+}
+
+.fancybox__nav,
+.fancybox__footer,
+.is-left,
+[data-panzoom-action],
+[data-fancybox-toggle-slideshow],
+[data-fancybox-toggle-fullscreen],
+[data-fancybox-toggle-thumbs] {
+  display: none !important;
+}
+.fancybox__container {
+  --fancybox-bg: #202020 !important;
+}
+.f-button {
+  background-color: transparent !important;
 }
