@@ -11,7 +11,7 @@ const Footer = () => {
         <div className={"footer_cons_right " + (inView? `${"active"}` : "")}>
           <div className="footer_cons_paws"></div>
           <div className="footer_cons_text">
-            <a href="tel:+15555551234" className="footer_cons_link footer_cons_link_tel">+1 (555) 555 1234</a>
+            <a href="tel:+375447401755" className="footer_cons_link footer_cons_link_tel">+375 (44) 740-17-55</a>
             <a href="mailto:arnoldlionmainecoon@gmail.com" className="footer_cons_link footer_cons_link_mail">arnoldlionmainecoon@gmail.com</a>
             <div className="footer_cons_messages">
               <a href="/" className="footer_cons_link footer_cons_link_telegram">Telegram</a>

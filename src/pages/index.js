@@ -8,6 +8,9 @@ import Link from 'next/link';
 import {CatalogList} from "@/components/CatalogList";
 import Head from "next/head";
 import {METADATA} from "@/components/meta";
+import Image from "next/image";
+import Fur from "@/images/fur.jpg";
+import FurMob from "@/images/fur_mob.jpg";
 
 
 export default function Home({cats}) {
@@ -23,12 +26,28 @@ export default function Home({cats}) {
             </Head>
             <Layout>
                 <div className="content">
-                    <h1 className={dmSerifDisplay + " " + styles.index_title}>Home</h1>
-                    <div className={styles.index_text}>
-                        <p className={styles.index_p}>The Maine Coon is a long-haired cat. The coat is soft and silky, the texture may vary depending on the coat color and breed type. The length of the hair on the head and shoulders is shorter, on the stomach and sides it is longer, and some cats have a developed decorative mane on the neck.</p>
-                        <p className={styles.index_p}>Like many native breeds, the Maine Coons can be of any color typical of ordinary domestic cats, but artificial colors that indicate possible admixture of other breeds, such as chocolate, lavender, color point or tipping, are not accepted in all federations. For example, color point in Maine Coon colors is accepted only by TICA. The most common pattern in the breed is the brown and smoky tabby, known in Russia as the “wild” color.</p>
+                    <div className={styles.index_intro}>
+                        <div className={styles.index_intro_text}>
+                            <h1 className={dmSerifDisplay + " " + styles.index_intro_title}>Arnold Lion Cattery</h1>
+                            <p className={styles.index_intro_p}>Luxury high quality Maine coons are here! We have references and reviews. We breed Maine coons for 12 years already!</p>
+                        </div>
+                        <Image
+                            src={Fur}
+                            sizes="100%"
+                            alt=""
+                            className={styles.index_intro_img}
+                            placeholder="blur"
+                        />
+                        <Image
+                            src={FurMob}
+                            sizes="100%"
+                            alt=""
+                            className={styles.index_intro_img_mob}
+                            placeholder="blur"
+                        />
                     </div>
                     <div className={styles.index_catalog}>
+                        <h2 className={dmSerifDisplay + " " + styles.index_diplomas_title}>Available kittens</h2>
                         <CatalogList cats={cats}/>
                         <Link href="/available-kittens" className={styles.index_link}>Show more</Link>
                     </div>

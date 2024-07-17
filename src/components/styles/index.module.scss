@@ -1,52 +1,95 @@
-// $bigfullscreen: 1900px;
+$bigfullscreen: 1900px;
 $fullscreen: 1520px;
 $mobile: 768px;
-.index_title {
-  font-size: 2.9vw;
-  line-height: 4.2vw;
-  margin-top: 3.1vw;
-  margin-bottom: 1.5vw;
+.index_intro {
+  margin-bottom: 3.1vw;
+  border-radius: 24px;
+  position: relative;
+  overflow: hidden;
+  height: 32.4vw;
   @media screen and (min-width: $fullscreen) {
-    font-size: 44px;
-    line-height: 64px;
-    margin-top: 47px;
-    margin-bottom: 23px;
+    margin-bottom: 47px;
+  }
+  @media screen and (min-width: $bigfullscreen) {
+    height: 616px;
   }
   @media screen and (max-width: $mobile) {
-    font-size: 7.5vw;
-    line-height: 8.9vw;
-    margin-top: 21.7vw;
-    margin-bottom: 4.2vw;
-  }
-}
-.index_text {
-  max-width: 57.4vw;
-  margin-bottom: 3.3vw;
-  @media screen and (min-width: $fullscreen) {
-    max-width: 872px;
-    margin-bottom: 50px;
-  }
-  @media screen and (max-width: $mobile) {
-    max-width: 100%;
+    height: 140.3vw;
+    margin-top: 14.6vw;
     margin-bottom: 10vw;
   }
 }
-.index_p {
-  font-size: 1.1vw;
-  line-height: 1.7vw;
-  margin-bottom: 1vw;
-  &:last-child {
-    margin-bottom: 0;
-  }
+.index_intro_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  max-width: 34.4vw;
   @media screen and (min-width: $fullscreen) {
-    font-size: 17px;
-    line-height: 26px;
-    margin-bottom: 15px;
+    max-width: 523px;
   }
   @media screen and (max-width: $mobile) {
-    font-size: 3.9vw;
-    line-height: 5.6vw;
-    margin-bottom: 2.5vw;
+    max-width: 100%;
+    // margin-bottom: 10vw;
+    align-items: flex-end;
+    gap: 44.4vw;
+    padding: 14vw 4.1vw 0;
+    top: auto;
+    left: auto;
+    margin-right: auto;
+    transform: none;
+  }
+}
+.index_intro_title {
+  font-size: 2.9vw;
+  line-height: 4.2vw;
+  margin-bottom: 1.5vw;
+  color: #FFFFFF;
+  @media screen and (min-width: $fullscreen) {
+    font-size: 44px;
+    line-height: 64px;
+    margin-bottom: 23px;
+  }
+  @media screen and (max-width: $mobile) {
+    font-size: 10.6vw;
+    line-height: 11.4vw;
+    margin-bottom: 0;
+  }
+}
+.index_intro_p {
+  font-size: 1.45vw;
+  line-height: 1.8vw;
+  color: #FFFFFF;
+  text-align: center;
+  @media screen and (min-width: $fullscreen) {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  @media screen and (max-width: $mobile) {
+    font-size: 4.3vw;
+    line-height: 6.5vw;
+    text-align: right;
+    max-width: 46vw;
+  }
+}
+.index_intro_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  @media screen and (max-width: $mobile) {
+    display: none;
+  }
+}
+.index_intro_img_mob {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  @media screen and (max-width: $mobile) {
+    display: block;
   }
 }
 .index_catalog {
@@ -63,11 +106,14 @@ $mobile: 768px;
   line-height: 1.8vw;
   padding: 1.1vw 3.7vw;
   border-radius: 16px;
+  width: 100%;
+  text-align: center;
   border: 1px solid #000000;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease-in;
   &:hover {
-    border: 1px solid #D9D9D9;
-    transition: all 0.5s ease;
+    color: #FFFFFF;
+    background-color: #000000;
+    transition: all 0.5s ease-in;
   }
   @media screen and (min-width: $fullscreen) {
     font-size: 22px;
@@ -81,7 +127,8 @@ $mobile: 768px;
     padding: 4.5vw;
     text-align: center;
     &:hover {
-      border: 1px solid #000000;
+      color: #000000;
+      background-color: #FFFFFF;
     }
   }
 }
@@ -96,7 +143,7 @@ $mobile: 768px;
   }
   @media screen and (max-width: $mobile) {
     padding: 5.3vw 3.9vw 6.8vw 3.9vw;
-    margin-bottom: 18.8vw;
+    margin-bottom: 7.7vw;
   }
 }
 .index_diplomas_title {

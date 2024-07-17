@@ -71,10 +71,9 @@ span {
 }
 .layout {
   display: flex;
-  gap: 1.3vw;
+  gap: 22px;
   margin-top: 2.15vw;
   @media screen and (min-width: $fullscreen) {
-    gap: 20px;
     margin-top: 33px;
   }
   @media screen and (max-width: $mobile) {
@@ -104,8 +103,8 @@ span {
 }
 .wrapper {
   max-width: 98%;
-  padding-right: 25px;
-  padding-left: 25px;
+  padding-right: 22px;
+  padding-left: 22px;
   margin-right: auto;
   margin-left: auto;
   max-width: 1900px;
