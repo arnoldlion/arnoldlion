@@ -108,12 +108,12 @@ $mobile: 768px;
   border-radius: 16px;
   width: 100%;
   text-align: center;
-  border: 1px solid #000000;
-  transition: all 0.2s ease-in;
+  color: #FFFFFF;
+  background-color: #272727;
+  transition: all 0.5s ease;
   &:hover {
-    color: #FFFFFF;
     background-color: #000000;
-    transition: all 0.2s ease-in;
+    transition: all 0.5s ease;
   }
   @media screen and (min-width: $fullscreen) {
     font-size: 22px;
@@ -127,8 +127,7 @@ $mobile: 768px;
     padding: 4.5vw;
     text-align: center;
     &:hover {
-      color: #000000;
-      background-color: #FFFFFF;
+      background-color: #272727;
     }
   }
 }
