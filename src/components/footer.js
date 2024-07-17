@@ -14,8 +14,8 @@ const Footer = () => {
             <a href="tel:+375447401755" className="footer_cons_link footer_cons_link_tel">+375 (44) 740-17-55</a>
             <a href="mailto:arnoldlionmainecoon@gmail.com" className="footer_cons_link footer_cons_link_mail">arnoldlionmainecoon@gmail.com</a>
             <div className="footer_cons_messages">
-              <a href="/" className="footer_cons_link footer_cons_link_telegram">Telegram</a>
-              <a href="/" className="footer_cons_link footer_cons_link_whatsapp">Whatsapp</a>
+              <a href="tg://resolve?domain=annamaxilife" className="footer_cons_link footer_cons_link_telegram">Telegram</a>
+              <a href="whatsapp://send?phone=+375447401755" className="footer_cons_link footer_cons_link_whatsapp">Whatsapp</a>
             </div>
           </div>
         </div>

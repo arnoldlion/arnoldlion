@@ -22,7 +22,6 @@ export default function Home({cats}) {
                 <meta property="og:image" content={  METADATA.imgHome}/>
                 <meta property="og:title" content={ METADATA.titleHome}/>
                 <meta property="og:description" content={ METADATA.descriptionHome}/>
-
             </Head>
             <Layout>
                 <div className="content">
