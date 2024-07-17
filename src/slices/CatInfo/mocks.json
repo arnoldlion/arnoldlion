@@ -8,11 +8,11 @@
 				"type": "Text",
 				"value": "h1 here"
 			},
-			"sub_title": {
-				"__TYPE__": "FieldContent",
-				"type": "Text",
-				"value": "its sub title"
-			},
+			// "sub_title": {
+			// 	"__TYPE__": "FieldContent",
+			// 	"type": "Text",
+			// 	"value": "its sub title"
+			// },
 			"img1_catlog": {
 				"origin": {
 					"id": "main",
