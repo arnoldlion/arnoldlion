@@ -8,11 +8,6 @@
 				"type": "Text",
 				"value": "h1 here"
 			},
-			"sub_title": {
-				"__TYPE__": "FieldContent",
-				"type": "Text",
-				"value": "its sub title"
-			},
 			"img1_catlog": {
 				"origin": {
 					"id": "main",
@@ -37,7 +32,6 @@
 				"thumbnails": {}
 			},
 			"img2_mobile": {
-				"__TYPE__": "ImageContent",
 				"origin": {
 					"id": "main",
 					"url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
@@ -55,6 +49,9 @@
 					},
 					"background": "transparent"
 				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
 				"thumbnails": {}
 			},
 			"img3_desktop": {
