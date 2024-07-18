@@ -107,7 +107,7 @@ export interface CatInfoSliceDefaultPrimary {
   sub_title: prismic.KeyTextField;
 
   /**
-   * img1 catlog field in *CatInfo → Default → Primary*
+   * catalog preview image field in *CatInfo → Default → Primary*
    *
    * - **Field Type**: Image
    * - **Placeholder**: *None*
@@ -117,17 +117,7 @@ export interface CatInfoSliceDefaultPrimary {
   img1_catlog: prismic.ImageField<never>;
 
   /**
-   * img2 mobile field in *CatInfo → Default → Primary*
-   *
-   * - **Field Type**: Image
-   * - **Placeholder**: *None*
-   * - **API ID Path**: cat_info.default.primary.img2_mobile
-   * - **Documentation**: https://prismic.io/docs/field#image
-   */
-  img2_mobile: prismic.ImageField<never>;
-
-  /**
-   * img3 desktop field in *CatInfo → Default → Primary*
+   * desktop image field in *CatInfo → Default → Primary*
    *
    * - **Field Type**: Image
    * - **Placeholder**: *None*
@@ -135,6 +125,16 @@ export interface CatInfoSliceDefaultPrimary {
    * - **Documentation**: https://prismic.io/docs/field#image
    */
   img3_desktop: prismic.ImageField<never>;
+
+  /**
+   * mobile image field in *CatInfo → Default → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: cat_info.default.primary.img2_mobile
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  img2_mobile: prismic.ImageField<never>;
 
   /**
    * gallery field in *CatInfo → Default → Primary*
@@ -175,7 +175,7 @@ export interface CatInfoSliceDefaultPrimary {
    * - **API ID Path**: cat_info.default.primary.gender
    * - **Documentation**: https://prismic.io/docs/field#select
    */
-  gender: prismic.SelectField<"Male" | "Female" | "Bisexual :)", "filled">;
+  gender: prismic.SelectField<"Male" | "Female", "filled">;
 
   /**
    * short description field in *CatInfo → Default → Primary*

@@ -29,15 +29,7 @@
         "img1_catlog": {
           "type": "Image",
           "config": {
-            "label": "img1 catlog",
-            "constraint": {},
-            "thumbnails": []
-          }
-        },
-        "img2_mobile": {
-          "type": "Image",
-          "config": {
-            "label": "img2 mobile",
+            "label": "catalog preview image",
             "constraint": {},
             "thumbnails": []
           }
@@ -45,7 +37,15 @@
         "img3_desktop": {
           "type": "Image",
           "config": {
-            "label": "img3 desktop",
+            "label": "desktop image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "img2_mobile": {
+          "type": "Image",
+          "config": {
+            "label": "mobile image",
             "constraint": {},
             "thumbnails": []
           }
