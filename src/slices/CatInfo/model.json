@@ -19,10 +19,17 @@
             "placeholder": ""
           }
         },
-        "img1_catalog": {
+        "sub_title": {
+          "type": "Text",
+          "config": {
+            "label": "sub title",
+            "placeholder": ""
+          }
+        },
+        "img1_catlog": {
           "type": "Image",
           "config": {
-            "label": "img1 catalog",
+            "label": "img1 catlog",
             "constraint": {},
             "thumbnails": []
           }

@@ -104,17 +104,17 @@ export interface CatInfoSliceDefaultPrimary {
    * - **API ID Path**: cat_info.default.primary.sub_title
    * - **Documentation**: https://prismic.io/docs/field#key-text
    */
-  // sub_title: prismic.KeyTextField;
+  sub_title: prismic.KeyTextField;
 
   /**
    * img1 catlog field in *CatInfo → Default → Primary*
    *
    * - **Field Type**: Image
    * - **Placeholder**: *None*
-   * - **API ID Path**: cat_info.default.primary.img1_catalog
+   * - **API ID Path**: cat_info.default.primary.img1_catlog
    * - **Documentation**: https://prismic.io/docs/field#image
    */
-  img1_catalog: prismic.ImageField<never>;
+  img1_catlog: prismic.ImageField<never>;
 
   /**
    * img2 mobile field in *CatInfo → Default → Primary*
