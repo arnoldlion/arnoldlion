@@ -22,7 +22,7 @@
         "img1_catalog": {
           "type": "Image",
           "config": {
-            "label": "img1 catlog",
+            "label": "img1 catalog",
             "constraint": {},
             "thumbnails": []
           }
