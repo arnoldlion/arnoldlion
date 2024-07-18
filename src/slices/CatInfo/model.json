@@ -19,14 +19,7 @@
             "placeholder": ""
           }
         },
-        // "sub_title": {
-        //   "type": "Text",
-        //   "config": {
-        //     "label": "sub title",
-        //     "placeholder": ""
-        //   }
-        // },
-        "img1_catlog": {
+        "img1_catalog": {
           "type": "Image",
           "config": {
             "label": "img1 catlog",

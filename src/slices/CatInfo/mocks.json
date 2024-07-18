@@ -8,12 +8,7 @@
 				"type": "Text",
 				"value": "h1 here"
 			},
-			// "sub_title": {
-			// 	"__TYPE__": "FieldContent",
-			// 	"type": "Text",
-			// 	"value": "its sub title"
-			// },
-			"img1_catlog": {
+			"img1_catalog": {
 				"origin": {
 					"id": "main",
 					"url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db",
