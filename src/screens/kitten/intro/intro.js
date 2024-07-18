@@ -15,14 +15,14 @@ export const Intro = ({firstSlice}) => {
                 src={firstSlice?.img3_desktop?.url}
                 width={400}
                 height={400}
-                alt="Kitten ArnoldLion"
+                alt={firstSlice?.img3_desktop?.alt}
                 className={styles.kitten_intro_img}
             />
             <Image
                 src={firstSlice?.img2_mobile?.url}
                 width={400}
                 height={400}
-                alt="Kitten ArnoldLion"
+                alt={firstSlice?.img2_mobile?.alt}
                 className={styles.kitten_intro_img_mob}
             />
         </div>

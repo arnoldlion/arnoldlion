@@ -18,7 +18,7 @@ export const CatalogList =({cats ,  isSold})=> {
                         src={info?.img1_catlog?.url}
                         width={200}
                         height={200}
-                        alt="Kitten Himberry"
+                        alt={info?.img1_catlog?.alt}
                         className={styles.catalog_item_img}
                     />
                     {!isSold && <div className={styles.catalog_item_top}>

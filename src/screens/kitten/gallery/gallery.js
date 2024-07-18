@@ -12,7 +12,7 @@ export const Gallery = ({firstSlice}) => {
                 src={photo?.gallery_img?.url}
                 width={200}
                 height={200}
-                alt="Kitten Himberry"
+                alt={photo?.gallery_img?.alt}
                 className={styles.kitten_gallery_img}
             />
         })}
