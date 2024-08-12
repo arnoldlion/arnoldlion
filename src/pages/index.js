@@ -4,6 +4,7 @@ import { dmSerifDisplay } from '@/components/fonts';
 import {createClient} from "@/prismicio";
 import { Diplomas } from "@/subitems/diplomas/index.js";
 import Link from 'next/link';
+import { useInView } from "react-intersection-observer";
 
 import {CatalogList} from "@/components/CatalogList";
 import Head from "next/head";
@@ -14,6 +15,12 @@ import FurMob from "@/images/fur_mob.jpg";
 
 
 export default function Home({cats}) {
+    const [ref1, inView1] = useInView({
+        triggerOnce: true,
+    });
+    const [ref2, inView2] = useInView({
+        triggerOnce: true,
+    });
     return (
         <>
             <Head>
@@ -46,13 +53,15 @@ export default function Home({cats}) {
                         />
                     </div>
                     <div className={styles.index_speech}>
+                        <div ref={ref1} className={styles.index_speech_trigger1}></div>
+                        <div ref={ref2} className={styles.index_speech_trigger2}></div>
                         <div className={styles.index_speech_left}></div>
                         <div className={styles.index_speech_right}>
                             <div className={styles.index_speech_content}>
-                                <div className={styles.index_speech_text}>
+                                <div className={styles.index_speech_text + " " + (inView1? `${styles.active1}` : "")}>
                                     <p className={styles.index_speech_p}>Hello, My name is Artur. I am a Maine coon breeder since 2012.</p>
                                 </div>
-                                <div className={styles.index_speech_text}>
+                                <div className={styles.index_speech_text + " " + (inView2? `${styles.active2}` : "")}>
                                     <p className={styles.index_speech_p}>I aim to breed big sized, healthy, unique, friendly and loving MaineCoons FOR YOU.</p>
                                     <p className={styles.index_speech_p}>I always thrive to provide customers with excellent service. Our goal is to make purchasing process as simple and enjoyable as it can ideally be. We welcome any questions and will try to answer them all. </p>
                                     <p className={styles.index_speech_p}>If you choose to buy from Our Arnold Cattery you can be assured that our kittens are fully vaccinated, Healthy and microchiped. All our adult cats are checked for major genetic diseases such as HCM Pkdef and SMA.</p>
