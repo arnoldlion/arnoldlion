@@ -115,7 +115,7 @@ $mobile: 768px;
     top: 152px;
   }
   @media screen and (max-width: $mobile) {
-    top: 110vw;
+    top: 120vw;
   }
 }
 .index_speech_trigger2 {
@@ -125,7 +125,7 @@ $mobile: 768px;
     top: 258px;
   }
   @media screen and (max-width: $mobile) {
-    top: 120vw;
+    top: 135vw;
   }
 }
 .index_speech_left {
@@ -195,6 +195,7 @@ $mobile: 768px;
   &.active2 {
     top: 0;
     transition: all 0.4s ease;
+    transition-delay: 0.2s;
   }
   @media screen and (min-width: $fullscreen) {
     padding: 29px 40px 29px 24px;
