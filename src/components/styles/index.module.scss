@@ -92,6 +92,117 @@ $mobile: 768px;
     display: block;
   }
 }
+.index_speech {
+  display: grid;
+  grid-template-columns: 1fr 2.1fr;
+  margin-bottom: 2.4vw;
+  border-radius: 24px;
+  overflow: hidden;
+  @media screen and (min-width: $fullscreen) {
+    margin-bottom: 36px;
+  }
+  @media screen and (max-width: $mobile) {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    margin-bottom: 10vw;
+  }
+}
+.index_speech_left {
+  height: 31.25vw;
+  background-image: url(../../images/index_speech.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  @media screen and (min-width: $fullscreen) {
+    height: 475px;
+  }
+  @media screen and (max-width: $mobile) {
+    height: 115vw;
+    background-image: url(../../images/index_speech.jpg);
+  }
+}
+.index_speech_right {
+  background-color: #272727;
+  position: relative;
+  @media screen and (max-width: $mobile) {
+    height: 70.3vw;
+  }
+}
+.index_speech_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.3vw;
+  position: absolute;
+  top: 4.5vw;
+  left: -2.5vw;
+  @media screen and (min-width: $fullscreen) {
+    gap: 35px;
+    top: 68px;
+    left: -38px;
+  }
+  @media screen and (max-width: $mobile) {
+    gap: 7vw;
+    top: auto;
+    bottom: 16.2vw;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+  }
+}
+.index_speech_text {
+  border-radius: 20px;
+  background-color: #3C3C3C;
+  padding: 1.9vw 2.6vw 1.9vw 1.6vw;
+  max-width: 48vw;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 4.7vw;
+    bottom: -1.5vw;
+    border: 1vw solid transparent;
+    border-left: 1vw solid #3C3C3C;
+    border-top: 1vw solid #3C3C3C;
+  }
+  @media screen and (min-width: $fullscreen) {
+    padding: 29px 40px 29px 24px;
+    max-width: 730px;
+  }
+  @media screen and (max-width: $mobile) {
+    padding: 4.8vw 4.3vw 4.8vw 4.1vw;
+    max-width: 81.9vw;
+    &::before {
+      left: 8.9vw;
+      bottom: -4.8vw;
+      border: 3.5vw solid transparent;
+      border-left: 3.5vw solid #3C3C3C;
+      border-top: 3.5vw solid #3C3C3C;
+    }
+    &:first-child {
+      max-width: 61.8vw;
+    }
+  }
+}
+.index_speech_p {
+  font-size: 1.1vw;
+  line-height: 1.45vw;
+  color: #FFFFFF;
+  margin-bottom: 0.5vw;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: $fullscreen) {
+    font-size: 17px;
+    line-height: 22px;
+    margin-bottom: 7.6px;
+  }
+  @media screen and (max-width: $mobile) {
+    font-size: 3.4vw;
+    line-height: 4.4vw;
+    margin-bottom: 1.7vw;
+  }
+}
 .index_catalog {
   margin-bottom: 4.4vw;
   @media screen and (min-width: $fullscreen) {

@@ -45,6 +45,21 @@ export default function Home({cats}) {
                             placeholder="blur"
                         />
                     </div>
+                    <div className={styles.index_speech}>
+                        <div className={styles.index_speech_left}></div>
+                        <div className={styles.index_speech_right}>
+                            <div className={styles.index_speech_content}>
+                                <div className={styles.index_speech_text}>
+                                    <p className={styles.index_speech_p}>Hello, My name is Artur. I am a Maine coon breeder since 2012.</p>
+                                </div>
+                                <div className={styles.index_speech_text}>
+                                    <p className={styles.index_speech_p}>I aim to breed big sized, healthy, unique, friendly and loving MaineCoons FOR YOU.</p>
+                                    <p className={styles.index_speech_p}>I always thrive to provide customers with excellent service. Our goal is to make purchasing process as simple and enjoyable as it can ideally be. We welcome any questions and will try to answer them all. </p>
+                                    <p className={styles.index_speech_p}>If you choose to buy from Our Arnold Cattery you can be assured that our kittens are fully vaccinated, Healthy and microchiped. All our adult cats are checked for major genetic diseases such as HCM Pkdef and SMA.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div className={styles.index_catalog}>
                         <h2 className={dmSerifDisplay + " " + styles.index_diplomas_title}>Available kittens</h2>
                         <CatalogList cats={cats}/>
