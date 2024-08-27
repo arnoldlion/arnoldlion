@@ -1,7 +1,8 @@
 
 import Header from "./header";
 import Footer from "./footer";
-import { dmSans } from './fonts'
+import { dmSans } from './fonts';
+import YandexMetrika from "./YandexMetrika";
 
 const Layout = ({ children }) => {
   return (
@@ -15,7 +16,13 @@ const Layout = ({ children }) => {
           </div>
         </div>
       </div>
-      
+      <YandexMetrika 
+        yid={98171358}
+        clickmap={true}
+        trackLinks={true}
+        accurateTrackBounce={true}
+        webvisor={true}
+      />
     </>
   )
 }

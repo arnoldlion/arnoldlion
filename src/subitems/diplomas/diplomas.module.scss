@@ -52,7 +52,7 @@ $mobile: 768px;
   align-items: flex-end;
   justify-content: center;
   border-radius: 16px;
-  background-color: #272727;
+  background-color: #000000;
   padding-bottom: 1.7vw;
   background-image: url(../../svg/diploma_cup.svg);
   background-repeat: no-repeat;
@@ -60,7 +60,7 @@ $mobile: 768px;
   background-size: 6.6vw;
   transition: all 0.5s ease;
   &:hover {
-    background-color: #000000;
+    background-color: #313131;
     transition: all 0.5s ease;
   }
   @media screen and (min-width: $fullscreen) {
@@ -73,6 +73,9 @@ $mobile: 768px;
     align-items: center;
     padding: 4vw 0;
     background-image: none;
+    &:hover {
+      background-color: #000000;
+    }
   }
 }
 

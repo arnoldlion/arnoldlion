@@ -419,7 +419,7 @@ footer {
   }
 }
 .footer_cons_right {
-  background-color: #272727;
+  background-color: #000000;
   padding: 3.8vw 2vw 3vw 2.6vw;
   position: relative;
   &.active {
@@ -477,12 +477,12 @@ footer {
   font-size: 1.3vw;
   line-height: 2.1vw;
   border-radius: 40px;
-  background-color: #3C3C3C;
+  background-color: #1F1F1F;
   background-repeat: no-repeat;
   color: #FFFFFF;
   transition: all .5s ease;
   &:hover {
-    background-color: #5F5F5F;
+    background-color: #313131;
     transition: all .5s ease;
   }
   @media screen and (min-width: $fullscreen) {
@@ -493,7 +493,7 @@ footer {
     font-size: 4.6vw;
     line-height: 7.2vw;
     &:hover {
-      background-color: #3C3C3C;
+      background-color: #1F1F1F;
     }
   }
 }
