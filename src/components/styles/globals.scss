@@ -598,12 +598,13 @@ footer {
 .footer_grid {
   display: grid;
   grid-gap: 0.9vw 0;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 2fr 1fr;
   grid-template-rows: repeat(2, auto);
   @media screen and (min-width: $fullscreen) {
     grid-gap: 14px 0;
   }
   @media screen and (max-width: $mobile) {
+    grid-template-columns: 1.2fr 1fr;
     grid-gap: 5.3vw 7vw;
   }
 }

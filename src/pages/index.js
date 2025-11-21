@@ -35,7 +35,7 @@ export default function Home({cats}) {
                     <div className={styles.index_intro}>
                         <div className={styles.index_intro_text}>
                             <h1 className={dmSerifDisplay + " " + styles.index_intro_title}>Arnold Lion Cattery</h1>
-                            <p className={styles.index_intro_p}>Luxury high quality Maine coons are here! We have references and reviews. We breed Maine coons for 12 years already!</p>
+                            <p className={styles.index_intro_p}>Luxury top quality Maine coons are here! We have references and reviews. We breed Maine coons for 13 years already!</p>
                         </div>
                         <Image
                             src={Fur}
@@ -64,7 +64,7 @@ export default function Home({cats}) {
                                 <div className={styles.index_speech_text + " " + (inView2? `${styles.active2}` : "")}>
                                     <p className={styles.index_speech_p}>I aim to breed big sized, healthy, unique, friendly and loving MaineCoons FOR YOU.</p>
                                     <p className={styles.index_speech_p}>I always thrive to provide customers with excellent service. Our goal is to make purchasing process as simple and enjoyable as it can ideally be. We welcome any questions and will try to answer them all. </p>
-                                    <p className={styles.index_speech_p}>If you choose to buy from Our Arnold Cattery you can be assured that our kittens are fully vaccinated, Healthy and microchiped. All our adult cats are checked for major genetic diseases such as HCM Pkdef and SMA.</p>
+                                    <p className={styles.index_speech_p}>If you choose to buy from Our Arnold Cattery you can be assured that our kittens are fully vaccinated, Healthy and microchiped. All our adult cats are checked for major genetic diseases such as HCM Pkdef and SMA. We do Echo and X-ray on our cats.</p>
                                 </div>
                             </div>
                         </div>
@@ -99,7 +99,7 @@ export async function getStaticProps() {
         const first =new Date(a.last_publication_date ).getTime()
         const second =new Date(b.last_publication_date ).getTime()
         return  second-first
-    }).slice(0 ,3 )
+    }).slice(0 , 6)
 
     return {
         props: {

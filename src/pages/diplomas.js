@@ -40,6 +40,8 @@ import Diploma32 from "@/images/diplomas/32_diploma.jpg"
 import Diploma33 from "@/images/diplomas/33_diploma.jpg"
 import Diploma34 from "@/images/diplomas/34_diploma.jpg"
 import Diploma35 from "@/images/diplomas/35_diploma.jpg"
+import Diploma36 from "@/images/diplomas/36_diploma.jpg"
+import Diploma37 from "@/images/diplomas/37_diploma.jpg"
 
 
 export default function Diplomas() {
@@ -437,6 +439,28 @@ export default function Diplomas() {
                 >
                 <Image
                   src={Diploma35}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
+                  alt=""
+                  className={styles.diplomas_item_img}
+                  placeholder="blur"
+                />
+              </a>
+              <a href="/images/diplomas/36_diploma.jpg" className={styles.diplomas_link}
+                data-fancybox="gallery"
+                >
+                <Image
+                  src={Diploma36}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
+                  alt=""
+                  className={styles.diplomas_item_img}
+                  placeholder="blur"
+                />
+              </a>
+              <a href="/images/diplomas/37_diploma.jpg" className={styles.diplomas_link}
+                data-fancybox="gallery"
+                >
+                <Image
+                  src={Diploma37}
                   sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.diplomas_item_img}
