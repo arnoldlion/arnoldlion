@@ -313,3 +313,83 @@ $mobile: 768px;
     margin-bottom: 4.2vw;
   }
 }
+.index_registration {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: auto;
+  border: 1px solid #D9D9D9;
+  border-radius: 24px;
+  overflow: hidden;
+  margin-bottom: 2.1vw;
+  // max-height: 500px;
+  @media screen and (min-width: $fullscreen) {
+    margin-bottom: 32px;
+  }
+  @media screen and (max-width: $mobile) {
+    grid-template-columns: 1fr;
+    margin-bottom: 7.7vw;
+  }
+}
+.index_registration_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  @media screen and (max-width: $mobile) {
+    display: block;
+  }
+}
+.index_registration_right {
+  padding: 2.7vw 1vw 2.6vw 1.8vw;
+  @media screen and (min-width: $fullscreen) {
+    padding: 41px 15px 40px 27px;
+  }
+  @media screen and (max-width: $mobile) {
+    padding: 5.3vw 3.9vw 8vw 3.9vw;
+  }
+}
+.index_registration_title {
+  font-size: 2.2vw;
+  line-height: 3.2vw;
+  margin-bottom: 1.45vw;
+  @media screen and (min-width: $fullscreen) {
+    font-size: 33px;
+    line-height: 49px;
+    margin-bottom: 22px;
+  }
+  @media screen and (max-width: $mobile) {
+    font-size: 6.3vw;
+    line-height: 8.9vw;
+    margin-bottom: 4.8vw;
+  }
+}
+.index_registration_text {
+  max-width: 29.5vw;
+  @media screen and (min-width: $fullscreen) {
+    max-width: 448px;
+  }
+  @media screen and (max-width: $mobile) {
+    max-width: 80vw;
+  }
+}
+.index_registration_text_p {
+  font-size: 1.45vw;
+  line-height: 1.9vw;
+  @media screen and (min-width: $fullscreen) {
+    font-size: 22px;
+    line-height: 29px;
+  }
+  @media screen and (max-width: $mobile) {
+    font-size: 3.9vw;
+    line-height: 5.1vw;
+    margin-bottom: 0.7vw;
+  }
+}
+
+// .index_registration {
+//   @media screen and (min-width: $fullscreen) {
+
+//   }
+//   @media screen and (max-width: $mobile) {
+
+//   }
+// }

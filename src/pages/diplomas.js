@@ -53,7 +53,6 @@ export default function Diplomas() {
         <meta property="og:image" content={  METADATA.imgDiplom}/>
         <meta property="og:title" content={ METADATA.titleDiplom}/>
         <meta property="og:description" content={ METADATA.descriptionDiplom}/>
-
       </Head>
       <Layout>
         <div className="content">

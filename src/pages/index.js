@@ -12,6 +12,7 @@ import {METADATA} from "@/components/meta";
 import Image from "next/image";
 import Fur from "@/images/fur.jpg";
 import FurMob from "@/images/fur_mob.jpg";
+import RegistrationImg from "@/images/registration_img.jpg";
 
 
 export default function Home({cats}) {
@@ -77,6 +78,29 @@ export default function Home({cats}) {
                     <div className={styles.index_diplomas}>
                         <h2 className={dmSerifDisplay + " " + styles.index_diplomas_title}>Our diplomas</h2>
                         <Diplomas />
+                    </div>
+                    <div className={styles.index_registration}>
+                        <div>
+                            <Image
+                                src={RegistrationImg}
+                                sizes="100%"
+                                alt=""
+                                className={styles.index_registration_img}
+                                placeholder="blur"
+                            />
+                        </div>
+                        <div className={styles.index_registration_right}>
+                            <h2 className={dmSerifDisplay + " " + styles.index_registration_title}>WCF-Cattery-Registration</h2>
+                            <div className={styles.index_registration_text}>
+                                <p className={styles.index_registration_text_p}>Zwingername / cattery: Arnold Lion</p>
+                                <p className={styles.index_registration_text_p}>Züchter / breeder: Maksimov, Artur</p>
+                                <p className={styles.index_registration_text_p}>Anschrift / adress: October avenue 53-176 246029 Gomel</p>
+                                <p className={styles.index_registration_text_p}>Land / country: Belarus</p>
+                                <p className={styles.index_registration_text_p}>Verein / club: AFC KotoMur</p>
+                                <p className={styles.index_registration_text_p}>BY-0290</p>
+                                <p className={styles.index_registration_text_p}>Datum / date: 29.01.2019</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </Layout>
