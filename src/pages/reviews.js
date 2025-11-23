@@ -58,7 +58,7 @@ export default function Reviews() {
       <Layout>
         <div className="content">
           <h1 className={dmSerifDisplay + " " + styles.reviews_intro_title}>Reviews</h1>
-          <a href="https://www.facebook.com/groups/734815114264815/permalink/1316628429416811/?mibextid=wwXIfr&rdid=6NmY6i8IBDtgBqpP#" target="_blank" className={styles.reviews_social_link}>Link to reviews on Facebook</a>
+          <a href="https://www.facebook.com/groups/734815114264815/permalink/1316628429416811/?mibextid=wwXIfr&rdid=6NmY6i8IBDtgBqpP#" target="_blank" className={styles.reviews_social_link}>Look reviews on Facebook</a>
           <Fancybox>
             <div className={styles.reviews_grid}>
               <a href="/images/reviews/01_reviews.jpg" className={styles.reviews_link}
