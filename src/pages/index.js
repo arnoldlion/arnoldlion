@@ -2,7 +2,7 @@ import styles from "@/components/styles/index.module.scss";
 import Layout from "@/components/layout";
 import { dmSerifDisplay } from '@/components/fonts';
 import {createClient} from "@/prismicio";
-import { Diplomas } from "@/subitems/diplomas/index.js";
+import { Diplomas } from "@/subitems/diplomas";
 import Link from 'next/link';
 import { useInView } from "react-intersection-observer";
 
@@ -100,14 +100,6 @@ export default function Home({cats}) {
                                 <p className={styles.index_registration_text_p}>BY-0290</p>
                                 <p className={styles.index_registration_text_p}>Datum / date: 29.01.2019</p>
                             </div>
-                        </div>
-                    </div>
-                    <div className={styles.index_social_media}>
-                        <h2 className={dmSerifDisplay + " " + styles.index_title}>Connect with us:</h2>
-                        <div className={styles.index_social_links}>
-                            <a href="https://www.facebook.com/groups/734815114264815" target="_blank" className={styles.index_social_link + " " + styles.index_social_link_fb}>Facebook</a>
-                            <a href="https://www.instagram.com/arnoldlioncattery/" target="_blank" className={styles.index_social_link + " " + styles.index_social_link_insta}>Instagram</a>
-                            <a href="https://www.tiktok.com/@arnold.lion" target="_blank" className={styles.index_social_link + " " + styles.index_social_link_tiktok}>TikTok</a>
                         </div>
                     </div>
                 </div>

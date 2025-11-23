@@ -16,9 +16,9 @@ export const Kitten =({data})=>{
         <div className={styles.kitten_content}>
             <Breadcrumbs isSold={firstSlice.status==="Sold"} />
             <h1 className={dmSerifDisplay + " " + styles.kitten_title}>{firstSlice.h1_title}</h1>
-                    <Intro firstSlice={firstSlice}/>
-                 <Gallery firstSlice={firstSlice}/>
-                <Descr firstSlice={firstSlice}/>
+            <Intro firstSlice={firstSlice}/>
+            <Gallery firstSlice={firstSlice}/>
+            <Descr firstSlice={firstSlice}/>
         </div>
     </Layout>
 }

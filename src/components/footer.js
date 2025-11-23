@@ -1,5 +1,7 @@
 import { useInView } from "react-intersection-observer";
 import Link from 'next/link';
+import { SocialMedia } from "@/subitems/social-media";
+import { dmSerifDisplay } from '@/components/fonts';
 
 const Footer = () => {
   const [ref, inView] = useInView({
@@ -7,6 +9,10 @@ const Footer = () => {
   });
   return (
     <footer>
+      <div className="footer_social_media">
+        <h2 className={dmSerifDisplay + " footer_social_media_title"}>Connect with us:</h2>
+        <SocialMedia />
+      </div>
       <div className="footer_cons">
         <div className="footer_cons_left"></div>
         <div className={"footer_cons_right " + (inView? `${"active"}` : "")}>
