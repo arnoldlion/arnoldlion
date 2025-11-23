@@ -47,7 +47,7 @@ const Header = () => {
     <div className="header">
       <header className="header_desktop">
         <div className="header__div_logo">
-          <a href="/" className="header_logo"></a>
+          <Link href="/" className="header_logo"></Link>
         </div>
         <SimpleBar forceVisible="true" autoHide={false} className="simplebar-header">
           <div className="header_nav">
@@ -67,7 +67,7 @@ const Header = () => {
         <div style={{position:position}} className={( getStickyHeader?"header_sticky":"" ) + (navOpen?" header_open":"") + " header_wrap_mob"}>
           <div className="wrapper">
             <div className="header_top_mob">
-              <a href="/" className="header_logo_mob"></a>
+              <Link href="/" className="header_logo_mob"></Link>
               <div
                 onClick={()=> {
                 setNavOpen(!navOpen)}}
@@ -81,7 +81,7 @@ const Header = () => {
             </div>
             <div className="header_hidden_mob">
               <div className="header__div_logo">
-                <a href="/" className="header_logo"></a>
+                <Link href="/" className="header_logo"></Link>
               </div>
               <div className="header_nav">
                 <Link href="/available-kittens" className={`header_nav_link header_nav_link_available ${pathname === '/available-kittens' ? 'active' : ''}`}>Available kittens</Link>

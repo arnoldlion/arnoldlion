@@ -1,4 +1,5 @@
 import { useInView } from "react-intersection-observer";
+import Link from 'next/link';
 
 const Footer = () => {
   const [ref, inView] = useInView({
@@ -23,8 +24,8 @@ const Footer = () => {
       <div ref={ref} className="footer_grid">
         <p className="footer_text">Delivery company address: 101 Diplomat Parkway, Hallandale Beach Fl 33009, 3057332320</p>
         <div className="footer_documents">
-          <a href="/" className="footer_link">Documents</a>
-          <a href="/" className="footer_link">Privacy Policy</a>
+          <Link href="/" className="footer_link">Documents</Link>
+          <Link href="/" className="footer_link">Privacy Policy</Link>
         </div>
         <p className="footer_text">© 2025 arnoldlion.com</p>
         <div className="footer_developers">

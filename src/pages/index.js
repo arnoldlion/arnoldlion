@@ -71,12 +71,12 @@ export default function Home({cats}) {
                         </div>
                     </div>
                     <div className={styles.index_catalog}>
-                        <h2 className={dmSerifDisplay + " " + styles.index_diplomas_title}>Available kittens</h2>
+                        <h2 className={dmSerifDisplay + " " + styles.index_title}>Available kittens</h2>
                         <CatalogList cats={cats}/>
                         <Link href="/available-kittens" className={styles.index_link}>Show more</Link>
                     </div>
                     <div className={styles.index_diplomas}>
-                        <h2 className={dmSerifDisplay + " " + styles.index_diplomas_title}>Our diplomas</h2>
+                        <h2 className={dmSerifDisplay + " " + styles.index_title}>Our diplomas</h2>
                         <Diplomas />
                     </div>
                     <div className={styles.index_registration}>
@@ -100,6 +100,14 @@ export default function Home({cats}) {
                                 <p className={styles.index_registration_text_p}>BY-0290</p>
                                 <p className={styles.index_registration_text_p}>Datum / date: 29.01.2019</p>
                             </div>
+                        </div>
+                    </div>
+                    <div className={styles.index_social_media}>
+                        <h2 className={dmSerifDisplay + " " + styles.index_title}>Connect with us:</h2>
+                        <div className={styles.index_social_links}>
+                            <a href="https://www.facebook.com/groups/734815114264815" target="_blank" className={styles.index_social_link + " " + styles.index_social_link_fb}>Facebook</a>
+                            <a href="https://www.instagram.com/arnoldlioncattery/" target="_blank" className={styles.index_social_link + " " + styles.index_social_link_insta}>Instagram</a>
+                            <a href="https://www.tiktok.com/@arnold.lion" target="_blank" className={styles.index_social_link + " " + styles.index_social_link_tiktok}>TikTok</a>
                         </div>
                     </div>
                 </div>
