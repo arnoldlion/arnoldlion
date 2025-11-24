@@ -1,7 +1,7 @@
 $bigfullscreen: 1900px;
 $fullscreen: 1520px;
 $mobile: 768px;
-.social_linkss {
+.social_links {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 5.55vw;
@@ -16,7 +16,7 @@ $mobile: 768px;
     grid-gap: 1.45vw;
   }
 }
-.social_links {
+.social_link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,7 +38,7 @@ $mobile: 768px;
     line-height: 5.5vw;
   }
 }
-.social_links_fb {
+.social_link_fb {
   background-color: #3B5999;
   background-image: url(../../svg/social_fb.svg);
   background-position: bottom -0.76vw right 2.5vw;
@@ -63,7 +63,7 @@ $mobile: 768px;
     }
   }
 }
-.social_links_insta {
+.social_link_insta {
   background-color: #F1336C;
   background-image: url(../../svg/social_insta.svg);
   background-position: bottom -1.9vw right 1.6vw;
@@ -88,7 +88,7 @@ $mobile: 768px;
     }
   }
 }
-.social_links_tiktok {
+.social_link_tiktok {
   background-color: #1B1B1B;
   background-image: url(../../svg/social_tiktok.svg);
   background-position: bottom -0.9vw right 2.1vw;

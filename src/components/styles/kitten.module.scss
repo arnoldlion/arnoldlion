@@ -542,6 +542,15 @@ $mobile: 768px;
     margin-bottom: 2.5vw;
   }
 }
+.kitten_registration {
+  margin-bottom: 3.9vw;
+  @media screen and (min-width: $fullscreen) {
+    margin-bottom: 59px;
+  }
+  @media screen and (max-width: $mobile) {
+    margin-bottom: 10vw;
+  }
+}
 
 
 
