@@ -1,5 +1,5 @@
-import styles from "@/components/styles/index.module.scss";
 import Layout from "@/components/layout";
+import styles from "@/components/styles/index.module.scss";
 import { dmSerifDisplay } from '@/components/fonts';
 import {createClient} from "@/prismicio";
 import { Diplomas } from "@/subitems/diplomas";

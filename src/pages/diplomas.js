@@ -1,5 +1,5 @@
-import styles from "@/components/styles/diplomas.module.scss";
 import Layout from "@/components/layout";
+import styles from "@/components/styles/diplomas.module.scss";
 import Head from "next/head";
 import {METADATA} from "@/components/meta";
 import Image from "next/image";
@@ -48,7 +48,7 @@ export default function Diplomas() {
   return (
     <>
       <Head>
-        <title>{ METADATA.titleDoc}</title>
+        <title>{ METADATA.titleDiplom}</title>
         <meta name="description" content={   METADATA.descriptionDiplom}/>
         <meta property="og:image" content={  METADATA.imgDiplom}/>
         <meta property="og:title" content={ METADATA.titleDiplom}/>

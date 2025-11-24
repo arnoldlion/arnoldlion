@@ -1,5 +1,5 @@
-import styles from "@/components/styles/about.module.scss";
 import Layout from "@/components/layout";
+import styles from "@/components/styles/about.module.scss";
 import Head from "next/head";
 import {METADATA} from "@/components/meta";
 import { dmSerifDisplay } from '@/components/fonts';

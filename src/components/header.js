@@ -55,7 +55,7 @@ const Header = () => {
             <Link href="/sold-kittens" className={`header_nav_link ${pathname === '/sold-kittens' ? 'active' : ''}`}>Sold kittens</Link>
             <Link href="/diplomas" className={`header_nav_link ${pathname === '/diplomas' ? 'active' : ''}`}>Diplomas</Link>
             <Link href="/reviews" className={`header_nav_link ${pathname === '/reviews' ? 'active' : ''}`}>Reviews</Link>
-            {/* <Link href="/manufacturers" className={`header_nav_link ${pathname === '/manufacturers' ? 'active' : ''}`}>Our manufacturers</Link> */}
+            <Link href="/queens" className={`header_nav_link ${pathname === '/queens' ? 'active' : ''}`}>Our Queens</Link>
             {/* <Link href="/graduates" className={`header_nav_link ${pathname === '/graduates' ? 'active' : ''}`}>Our graduates</Link> */}
             {/* <Link href="/documentation" className={`header_nav_link ${pathname === '/documentation' ? 'active' : ''}`}>Documentation</Link> */}
             {/* <Link href="/" className={`header_nav_link ${pathname === '/' ? 'active' : ''}`}>Story</Link> */}
@@ -89,7 +89,7 @@ const Header = () => {
                 <Link href="/sold-kittens" className={`header_nav_link ${pathname === '/sold-kittens' ? 'active' : ''}`}>Sold kittens</Link>
                 <Link href="/diplomas" className={`header_nav_link ${pathname === '/diplomas' ? 'active' : ''}`}>Diplomas</Link>
                 <Link href="/reviews" className={`header_nav_link ${pathname === '/reviews' ? 'active' : ''}`}>Reviews</Link>
-                {/* <Link href="/manufacturers" className={`header_nav_link ${pathname === '/manufacturers' ? 'active' : ''}`}>Our manufacturers</Link> */}
+                <Link href="/queens" className={`header_nav_link ${pathname === '/queens' ? 'active' : ''}`}>Our Queens</Link>
                 {/* <Link href="/graduates" className={`header_nav_link ${pathname === '/graduates' ? 'active' : ''}`}>Our graduates</Link> */}
                 {/* <Link href="/documentation" className={`header_nav_link ${pathname === '/documentation' ? 'active' : ''}`}>Documentation</Link> */}
                 {/* <Link href="/about" className={`header_nav_link ${pathname === '/about' ? 'active' : ''}`}>About Us</Link> */}

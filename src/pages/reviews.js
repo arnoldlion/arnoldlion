@@ -1,5 +1,5 @@
-import styles from "@/components/styles/reviews.module.scss";
 import Layout from "@/components/layout";
+import styles from "@/components/styles/reviews.module.scss";
 import Head from "next/head";
 import {METADATA} from "@/components/meta";
 import Image from "next/image";
@@ -49,11 +49,11 @@ export default function Reviews() {
   return (
     <>
       <Head>
-        <title>{ METADATA.titleDoc}</title>
-        <meta name="description" content={   METADATA.descriptionDiplom}/>
-        <meta property="og:image" content={  METADATA.imgDiplom}/>
-        <meta property="og:title" content={ METADATA.titleDiplom}/>
-        <meta property="og:description" content={ METADATA.descriptionDiplom}/>
+        <title>{ METADATA.titleReviews}</title>
+        <meta name="description" content={   METADATA.descriptionReviews}/>
+        <meta property="og:image" content={  METADATA.imgReviews}/>
+        <meta property="og:title" content={ METADATA.titleReviews}/>
+        <meta property="og:description" content={ METADATA.descriptionReviews}/>
       </Head>
       <Layout>
         <div className="content">
