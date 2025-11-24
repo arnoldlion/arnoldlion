@@ -14,6 +14,10 @@ import Fur from "@/images/fur.jpg";
 import FurMob from "@/images/fur_mob.jpg";
 import RegistrationImg from "@/images/registration_img.jpg";
 
+import { Video } from "@/subitems/video-intro/index"
+// import mainVideo from "@/video/index.mp4"
+// import mainVideoMobile from "@/video/index_mob.mp4"
+
 
 export default function Home({cats}) {
     const [ref1, inView1] = useInView({
@@ -38,7 +42,12 @@ export default function Home({cats}) {
                             <h1 className={dmSerifDisplay + " " + styles.index_intro_title}>Arnold Lion Cattery</h1>
                             <p className={styles.index_intro_p}>Luxury top quality Maine coons are here! We have references and reviews. We breed Maine coons for 13 years already!</p>
                         </div>
-                        <Image
+                        {/* <Video mobileSrc={mainVideoMobile} desktopSrc={mainVideo} /> */}
+                        <Video 
+                            mobileSrc="/video/index_mob.mp4" 
+                            desktopSrc="/video/index.mp4" 
+                        />
+                        {/* <Image
                             src={Fur}
                             sizes="100%"
                             alt=""
@@ -51,7 +60,7 @@ export default function Home({cats}) {
                             alt=""
                             className={styles.index_intro_img_mob}
                             placeholder="blur"
-                        />
+                        /> */}
                     </div>
                     <div className={styles.index_speech}>
                         <div ref={ref1} className={styles.index_speech_trigger1}></div>
