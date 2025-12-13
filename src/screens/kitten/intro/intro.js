@@ -9,7 +9,7 @@ export const Intro = ({firstSlice}) => {
         triggerOnce: true,
     });
     const isSold =firstSlice.status==="Sold"
-    return <div className={styles.kitten_intro}>
+    return <div className={styles.kitten_intro + (isSold ? " " + styles.kitten_intro_sold : "")}>
         <div className={styles.kitten_intro_imgs}>
             <Image
                 src={firstSlice?.img3_desktop?.url}

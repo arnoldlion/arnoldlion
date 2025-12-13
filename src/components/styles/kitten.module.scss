@@ -295,6 +295,11 @@ $mobile: 768px;
     padding-bottom: 98.6vw;
   }
 }
+.kitten_intro_sold {
+  @media screen and (max-width: $mobile) {
+    padding-bottom: 23.9vw;
+  }
+}
 .kitten_intro_imgs {
   display: flex;
 }
