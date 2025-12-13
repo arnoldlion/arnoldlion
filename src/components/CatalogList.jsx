@@ -22,7 +22,7 @@ export const CatalogList =({cats ,  isSold})=> {
                         className={styles.catalog_item_img}
                     />
                     {!isSold && <div className={styles.catalog_item_top}>
-                        <p className={styles.catalog_item_price}>${info?.price || 0}</p>
+                        <p className={styles.catalog_item_price}>${info?.pet_price || 0}</p>
                     </div>}
                     <div className={styles.catalog_item_bottom}>
                         {!isSold && <p className={styles.catalog_item_p}>{info.gender}</p>}

@@ -31,9 +31,18 @@ export const Intro = ({firstSlice}) => {
                 <div className={styles.kitten_intro_top}>
                     <p className={styles.kitten_intro_text_p}> {firstSlice?.short_description  }</p>
                 </div>
+                {!isSold&&<div className={styles.kitten_intro_middle}>
+                    <div className={styles.kitten_intro_middle_prices}>
+                        <p className={styles.kitten_intro_price}>Pet: ${firstSlice?.pet_price}</p>
+                        <p className={styles.kitten_intro_price}>Breed: ${firstSlice?.breed_price}</p>
+                    </div>
+                    <div className={styles.kitten_intro_conditions}>
+                        <p className={styles.kitten_intro_conditions_p + " " + styles.kitten_intro_conditions_p1}>Delivery charges are paid separately from the kitten’s cost</p>
+                        <p className={styles.kitten_intro_conditions_p + " " + styles.kitten_intro_conditions_p2}>We send additional photos and videos of the kitten and its parents</p>
+                        <p className={styles.kitten_intro_conditions_p + " " + styles.kitten_intro_conditions_p3}>We FaceTime our kittens</p>
+                    </div>
+                </div>}
                 <div ref={ref} className={styles.kitten_intro_bottom}>
-
-                    {!isSold&&<p className={styles.kitten_intro_price}>${firstSlice?.price}</p>}
                     <p className={styles.kitten_intro_status + " " + styles?.[STATUSES_CLASSNAMES[firstSlice?.status?.toLowerCase()]]}></p>
                 </div>
             </div>

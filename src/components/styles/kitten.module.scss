@@ -292,7 +292,7 @@ $mobile: 768px;
   @media screen and (max-width: $mobile) {
     display: block;
     margin-bottom: 0;
-    padding-bottom: 23.9vw;
+    padding-bottom: 98.6vw;
   }
 }
 .kitten_intro_imgs {
@@ -370,9 +370,9 @@ $mobile: 768px;
   }
 }
 .kitten_intro_top {
-  margin-bottom: 3vw;
+  margin-bottom: 1.9vw;
   @media screen and (min-width: $fullscreen) {
-    margin-bottom: 46px;
+    margin-bottom: 29px;
   }
   @media screen and (max-width: $mobile) {
     margin-bottom: 5vw;
@@ -389,6 +389,131 @@ $mobile: 768px;
   @media screen and (max-width: $mobile) {
     font-size: 4.3vw;
     line-height: 5.8vw;
+  }
+}
+.kitten_intro_middle {
+  border-radius: 24px;
+  border: 1px solid #3D3D3D;
+  padding: 2vw 1.6vw 2.6vw;
+  margin-bottom: 2.1vw;
+  @media screen and (min-width: $fullscreen) {
+    padding: 30px 24px 40px;
+    margin-bottom: 32px;
+  }
+  @media screen and (max-width: $mobile) {
+    padding: 6vw 5.6vw 7.2vw;
+    margin-bottom: 6vw;
+  }
+}
+.kitten_intro_middle_prices {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9vw;
+  margin-bottom: 1.7vw;
+  @media screen and (min-width: $fullscreen) {
+    gap: 14px;
+    margin-bottom: 26px;
+  }
+  @media screen and (max-width: $mobile) {
+    gap: 1vw;
+    margin-bottom: 4.6vw;
+  }
+}
+.kitten_intro_conditions {
+  max-width: 19.8vw;
+  @media screen and (min-width: $fullscreen) {
+    max-width: 301px;
+  }
+  @media screen and (max-width: $mobile) {
+    max-width: 53vw;
+  }
+}
+.kitten_intro_conditions_p {
+  font-size: 1vw;
+  line-height: 1.25vw;
+  color: #FFFFFF;
+  padding-left: 2.4vw;
+  margin-bottom: 0.7vw;
+  position: relative;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  @media screen and (min-width: $fullscreen) {
+    font-size: 15px;
+    line-height: 19px;
+    padding-left: 36px;
+    margin-bottom: 11px;
+  }
+  @media screen and (max-width: $mobile) {
+    font-size: 3.4vw;
+    line-height: 4.3vw;
+    padding-left: 8.7vw;
+    margin-bottom: 2.4vw;
+  }
+}
+.kitten_intro_conditions_p1 {
+  &::before {
+    width: 1.39vw;
+    height: 1.5vw;
+    background-image: url(../../svg/kitten_intro_conditions_1.svg);
+  }
+  @media screen and (min-width: $fullscreen) {
+    &::before {
+      width: 21px;
+      height: 23px;
+    }
+  }
+  @media screen and (max-width: $mobile) {
+    &::before {
+      width: 4.83vw;
+      height: 5.2vw;
+    }
+  }
+}
+.kitten_intro_conditions_p2 {
+  &::before {
+    width: 1.25vw;
+    height: 1.25vw;
+    background-image: url(../../svg/kitten_intro_conditions_2.svg);
+  }
+  @media screen and (min-width: $fullscreen) {
+    &::before {
+      width: 19px;
+      height: 19px;
+    }
+  }
+  @media screen and (max-width: $mobile) {
+    &::before {
+      width: 4.3vw;
+      height: 4.3vw;
+    }
+  }
+}
+.kitten_intro_conditions_p3 {
+  &::before {
+    width: 1.39vw;
+    height: 1vw;
+    background-image: url(../../svg/kitten_intro_conditions_3.svg);
+  }
+  @media screen and (min-width: $fullscreen) {
+    &::before {
+      width: 21px;
+      height: 15px;
+    }
+  }
+  @media screen and (max-width: $mobile) {
+    &::before {
+      width: 4.8vw;
+      height: 3.5vw;
+    }
   }
 }
 .kitten_intro_bottom {
@@ -412,8 +537,8 @@ $mobile: 768px;
     line-height: 32px;
   }
   @media screen and (max-width: $mobile) {
-    font-size: 5.1vw;
-    line-height: 7vw;
+    font-size: 5.3vw;
+    line-height: 7.25vw;
   }
 }
 .kitten_intro_status {

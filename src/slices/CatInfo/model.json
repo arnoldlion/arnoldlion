@@ -60,10 +60,17 @@
             }
           }
         },
-        "price": {
+        "pet_price": {
           "type": "Text",
           "config": {
-            "label": "price",
+            "label": "Pet price",
+            "placeholder": ""
+          }
+        },
+        "breed_price": {
+          "type": "Text",
+          "config": {
+            "label": "Breed price",
             "placeholder": ""
           }
         },

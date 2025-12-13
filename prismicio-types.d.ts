@@ -137,14 +137,24 @@ export interface CatInfoSliceDefaultPrimary {
   gallery: prismic.GroupField<Simplify<CatInfoSliceDefaultPrimaryGalleryItem>>;
 
   /**
-   * price field in *CatInfo → Default → Primary*
+   * Pet price field in *CatInfo → Default → Primary*
    *
    * - **Field Type**: Text
    * - **Placeholder**: *None*
-   * - **API ID Path**: cat_info.default.primary.price
+   * - **API ID Path**: cat_info.default.primary.pet_price
    * - **Documentation**: https://prismic.io/docs/field#key-text
    */
-  price: prismic.KeyTextField;
+  pet_price: prismic.KeyTextField;
+
+  /**
+   * Breed price field in *CatInfo → Default → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: cat_info.default.primary.breed_price
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  breed_price: prismic.KeyTextField;
 
   /**
    * age field in *CatInfo → Default → Primary*

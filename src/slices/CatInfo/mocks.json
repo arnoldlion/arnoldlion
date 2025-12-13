@@ -113,11 +113,6 @@
 					}
 				]
 			},
-			"price": {
-				"__TYPE__": "FieldContent",
-				"value": "flies",
-				"type": "Text"
-			},
 			"age": {
 				"__TYPE__": "FieldContent",
 				"value": "thread",
@@ -142,6 +137,16 @@
 				"__TYPE__": "FieldContent",
 				"value": "Available",
 				"type": "Select"
+			},
+			"pet_price": {
+				"__TYPE__": "FieldContent",
+				"value": "circus",
+				"type": "Text"
+			},
+			"breed_price": {
+				"__TYPE__": "FieldContent",
+				"value": "met",
+				"type": "Text"
 			}
 		},
 		"items": []
