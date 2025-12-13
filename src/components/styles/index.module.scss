@@ -196,14 +196,18 @@ $mobile: 768px;
   position: relative;
   top: 4.5vw;
   transition: all 0.4s ease;
+  background: rgba(72, 72, 72, 0.63);
+  backdrop-filter: blur(4px);
+  z-index: 2;
   &::before {
     content: "";
     position: absolute;
     left: 4.7vw;
     bottom: -1.5vw;
     border: 1vw solid transparent;
-    border-left: 1vw solid #1F1F1F;
-    border-top: 1vw solid #1F1F1F;
+    border-left: 1vw solid rgba(40, 40, 40, 0.63);
+    border-top: 1vw solid rgba(40, 40, 40, 0.63);
+    z-index: 1;
   }
   &.active1 {
     top: 0;
@@ -222,8 +226,8 @@ $mobile: 768px;
       left: 71px;
       bottom: -23px;
       border: 15px solid transparent;
-      border-left: 15px solid #1F1F1F;
-      border-top: 15px solid #1F1F1F;
+      border-left: 15px solid rgba(40, 40, 40, 0.63);
+      border-top: 15px solid rgba(40, 40, 40, 0.63);
     }
   }
   @media screen and (max-width: $mobile) {
@@ -234,11 +238,16 @@ $mobile: 768px;
       left: 8.9vw;
       bottom: -4.8vw;
       border: 3.5vw solid transparent;
-      border-left: 3.5vw solid #1F1F1F;
-      border-top: 3.5vw solid #1F1F1F;
+      border-left: 3.5vw solid rgba(47, 47, 47, 0.63);
+      border-top: 3.5vw solid rgba(47, 47, 47, 0.63);
     }
     &:first-child {
       max-width: 61.8vw;
+      &::before {
+        bottom: -6.4vw;
+        border-left: 3.5vw solid rgba(92, 92, 92, 0.734);
+        border-top: 3.5vw solid rgba(92, 92, 92, 0.734);
+      }
     }
   }
 }
