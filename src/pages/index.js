@@ -21,81 +21,81 @@ import { Video } from "@/subitems/video-intro/index"
 
 
 export default function Home({cats}) {
-    const [ref1, inView1] = useInView({
-        triggerOnce: true,
-    });
-    const [ref2, inView2] = useInView({
-        triggerOnce: true,
-    });
-    return (
-        <>
-            <Head>
-                <title>{ METADATA.titleHome}</title>
-                <meta name="description" content={   METADATA.descriptionHome}/>
-                <meta property="og:image" content={  METADATA.imgHome}/>
-                <meta property="og:title" content={ METADATA.titleHome}/>
-                <meta property="og:description" content={ METADATA.descriptionHome}/>
-            </Head>
-            <Layout>
-                <div className="content">
-                    <div className={styles.index_intro}>
-                        <div className={styles.index_intro_text}>
-                            <h1 className={dmSerifDisplay + " " + styles.index_intro_title}>Arnold Lion Cattery</h1>
-                            <p className={styles.index_intro_p}>Luxury top quality Maine coons are here! We have references and reviews. We breed Maine coons for 13 years already!</p>
-                        </div>
-                        {/* <Video mobileSrc={mainVideoMobile} desktopSrc={mainVideo} /> */}
-                        <Video 
-                            mobileSrc="/video/index_mob.mp4" 
-                            desktopSrc="/video/index.mp4" 
-                        />
-                        {/* <Image
-                            src={Fur}
-                            sizes="100%"
-                            alt=""
-                            className={styles.index_intro_img}
-                            placeholder="blur"
-                        />
-                        <Image
-                            src={FurMob}
-                            sizes="100%"
-                            alt=""
-                            className={styles.index_intro_img_mob}
-                            placeholder="blur"
-                        /> */}
-                    </div>
-                    <div className={styles.index_speech}>
-                        <div ref={ref1} className={styles.index_speech_trigger1}></div>
-                        <div ref={ref2} className={styles.index_speech_trigger2}></div>
-                        <div className={styles.index_speech_left}></div>
-                        <div className={styles.index_speech_right}>
-                            <div className={styles.index_speech_content}>
-                                <div className={styles.index_speech_text + " " + (inView1? `${styles.active1}` : "")}>
-                                    <p className={styles.index_speech_p}>Hello, My name is Artur. I am a Maine coon breeder since 2012.</p>
-                                </div>
-                                <div className={styles.index_speech_text + " " + (inView2? `${styles.active2}` : "")}>
-                                    <p className={styles.index_speech_p}>I aim to breed big sized, healthy, unique, friendly and loving MaineCoons FOR YOU.</p>
-                                    <p className={styles.index_speech_p}>I always thrive to provide customers with excellent service. Our goal is to make purchasing process as simple and enjoyable as it can ideally be. We welcome any questions and will try to answer them all. </p>
-                                    <p className={styles.index_speech_p}>If you choose to buy from Our Arnold Cattery you can be assured that our kittens are fully vaccinated, Healthy and microchiped. All our adult cats are checked for major genetic diseases such as HCM Pkdef and SMA. We do Echo and X-ray on our cats.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className={styles.index_catalog}>
-                        <h2 className={dmSerifDisplay + " " + styles.index_title}>Available kittens</h2>
-                        <CatalogList cats={cats}/>
-                        <Link href="/available-kittens" className={styles.index_link}>Show more</Link>
-                    </div>
-                    <div className={styles.index_diplomas}>
-                        <h2 className={dmSerifDisplay + " " + styles.index_title}>Our diplomas</h2>
-                        <Diplomas />
-                    </div>
-                    <div className={styles.index_registration}>
-                        <Registration />
-                    </div>
+  const [ref1, inView1] = useInView({
+    triggerOnce: true,
+  });
+  const [ref2, inView2] = useInView({
+    triggerOnce: true,
+  });
+  return (
+    <>
+      <Head>
+        <title>{ METADATA.titleHome}</title>
+        <meta name="description" content={   METADATA.descriptionHome}/>
+        <meta property="og:image" content={  METADATA.imgHome}/>
+        <meta property="og:title" content={ METADATA.titleHome}/>
+        <meta property="og:description" content={ METADATA.descriptionHome}/>
+      </Head>
+      <Layout>
+        <div className="content">
+          <div className={styles.index_intro}>
+            <div className={styles.index_intro_text}>
+              <h1 className={dmSerifDisplay + " " + styles.index_intro_title}>Arnold Lion Cattery</h1>
+              <p className={styles.index_intro_p}>Luxury top quality Maine coons are here! We have references and reviews. We breed Maine coons for 13 years already!</p>
+            </div>
+              {/* <Video mobileSrc={mainVideoMobile} desktopSrc={mainVideo} /> */}
+              <Video 
+                mobileSrc="/video/index_mob.mp4" 
+                desktopSrc="/video/index.mp4" 
+              />
+              {/* <Image
+                src={Fur}
+                sizes="100%"
+                alt=""
+                className={styles.index_intro_img}
+                placeholder="blur"
+              />
+              <Image
+                src={FurMob}
+                sizes="100%"
+                alt=""
+                className={styles.index_intro_img_mob}
+                placeholder="blur"
+              /> */}
+            </div>
+            <div className={styles.index_speech}>
+              <div ref={ref1} className={styles.index_speech_trigger1}></div>
+              <div ref={ref2} className={styles.index_speech_trigger2}></div>
+              <div className={styles.index_speech_left}></div>
+              <div className={styles.index_speech_right}>
+                <div className={styles.index_speech_content}>
+                  <div className={styles.index_speech_text + " " + (inView1? `${styles.active1}` : "")}>
+                    <p className={styles.index_speech_p}>Hello, My name is Artur. I am a Maine coon breeder since 2012.</p>
+                  </div>
+                  <div className={styles.index_speech_text + " " + (inView2? `${styles.active2}` : "")}>
+                    <p className={styles.index_speech_p}>I aim to breed big sized, healthy, unique, friendly and loving MaineCoons FOR YOU.</p>
+                    <p className={styles.index_speech_p}>I always thrive to provide customers with excellent service. Our goal is to make purchasing process as simple and enjoyable as it can ideally be. We welcome any questions and will try to answer them all. </p>
+                    <p className={styles.index_speech_p}>If you choose to buy from Our Arnold Cattery you can be assured that our kittens are fully vaccinated, Healthy and microchiped. All our adult cats are checked for major genetic diseases such as HCM Pkdef and SMA. We do Echo and X-ray on our cats.</p>
+                  </div>
                 </div>
-            </Layout>
-        </>
-    );
+              </div>
+            </div>
+            <div className={styles.index_catalog}>
+              <h2 className={dmSerifDisplay + " " + styles.index_title}>Available kittens</h2>
+              <CatalogList cats={cats}/>
+              <Link href="/available-kittens" className={styles.index_link}>Show more</Link>
+            </div>
+            <div className={styles.index_diplomas}>
+              <h2 className={dmSerifDisplay + " " + styles.index_title}>Our diplomas</h2>
+              <Diplomas />
+            </div>
+            <div className={styles.index_registration}>
+              <Registration />
+            </div>
+          </div>
+        </Layout>
+    </>
+  );
 }
 
 

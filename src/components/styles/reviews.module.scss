@@ -83,10 +83,10 @@ $mobile: 768px;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;
   grid-gap: 0.5vw;
-  margin-bottom: 3.9vw;
+  margin-bottom: 2.4vw;
   @media screen and (min-width: $fullscreen) {
     grid-gap: 8px;
-    margin-bottom: 59px;
+    margin-bottom: 36px;
   }
   @media screen and (max-width: $mobile) {
     grid-template-columns: repeat(2, 1fr);
