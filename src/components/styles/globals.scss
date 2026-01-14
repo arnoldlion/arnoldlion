@@ -630,7 +630,7 @@ footer {
   background-size: 2vw;
   background-position: center left 1.1vw;
   &:hover {
-    background-color: #6C6C6C;
+    background-color: #1F1F1F;
     transition: all .5s ease;
   }
   @media screen and (min-width: $fullscreen) {
@@ -718,12 +718,12 @@ footer {
   }
 }
 .content {
-  margin-bottom: 2.4vw;
+  margin-bottom: 5vw;
   @media screen and (min-width: $fullscreen) {
-    margin-bottom: 36px;
+    margin-bottom: 76px;
   }
   @media screen and (max-width: $mobile) {
-    margin-bottom: 10vw;
+    margin-bottom: 12vw;
   }
 }
 .simplebar-header {
