@@ -53,7 +53,7 @@ const Header = () => {
           <div className="header_nav">
             <Link href="/available-kittens" className={`header_nav_link header_nav_link_available ${pathname === '/available-kittens' ? 'active' : ''}`}>Available kittens</Link>
             <Link href="/sold-kittens" className={`header_nav_link ${pathname === '/sold-kittens' ? 'active' : ''}`}>Sold kittens</Link>
-            <Link href="/queens" className={`header_nav_link ${pathname === '/queens' ? 'active' : ''}`}>Our Queens</Link>
+            <Link href="/queens-kings" className={`header_nav_link ${pathname === '/queens-kings' ? 'active' : ''}`}>Queens and Kings</Link>
             <Link href="/diplomas" className={`header_nav_link ${pathname === '/diplomas' ? 'active' : ''}`}>Diplomas</Link>
             <Link href="/reviews" className={`header_nav_link ${pathname === '/reviews' ? 'active' : ''}`}>Reviews</Link>
             {/* <Link href="/graduates" className={`header_nav_link ${pathname === '/graduates' ? 'active' : ''}`}>Our graduates</Link> */}
@@ -87,7 +87,7 @@ const Header = () => {
               <div className="header_nav">
                 <Link href="/available-kittens" className={`header_nav_link header_nav_link_available ${pathname === '/available-kittens' ? 'active' : ''}`}>Available kittens</Link>
                 <Link href="/sold-kittens" className={`header_nav_link ${pathname === '/sold-kittens' ? 'active' : ''}`}>Sold kittens</Link>
-                <Link href="/queens" className={`header_nav_link ${pathname === '/queens' ? 'active' : ''}`}>Our Queens</Link>
+                <Link href="/queens-kings" className={`header_nav_link ${pathname === '/queens-kings' ? 'active' : ''}`}>Queens and Kings</Link>
                 <Link href="/diplomas" className={`header_nav_link ${pathname === '/diplomas' ? 'active' : ''}`}>Diplomas</Link>
                 <Link href="/reviews" className={`header_nav_link ${pathname === '/reviews' ? 'active' : ''}`}>Reviews</Link>
                 {/* <Link href="/graduates" className={`header_nav_link ${pathname === '/graduates' ? 'active' : ''}`}>Our graduates</Link> */}
