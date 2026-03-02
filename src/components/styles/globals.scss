@@ -199,6 +199,7 @@ span {
     margin-top: 6.1vw;
     margin-bottom: 10vw;
     height: calc(100vh - 25vw);
+    height: calc(100vh - 31vw);
   }
 }
 .header__div_logo {
@@ -210,6 +211,7 @@ span {
   }
   @media screen and (max-width: $mobile) {
     padding: 13.3vw 15.2vw 9vw;
+    padding: 11.3vw 15.2vw 7vw;
   }
 }
 .header_logo {
@@ -224,8 +226,10 @@ span {
     height: 178px;
   }
   @media screen and (max-width: $mobile) {
-    width: 61.9vw;
-    height: 40.7vw;
+    // width: 61.9vw;
+    // height: 40.7vw;
+    width: 56vw;
+    height: 36.7vw;
   }
 }
 .header_nav {
