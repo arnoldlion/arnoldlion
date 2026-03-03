@@ -50,9 +50,10 @@ $mobile: 768px;
   @media screen and (max-width: $mobile) {
     .faq_item_title {
       &::after {
-        padding: 1.7vw;
+        border-width: 0 1.2px 1.2px 0;
+        padding: 1vw;
         right: 5.3vw;
-        // top: 55%;
+        top: 55%;
       }
     }
   }
@@ -98,9 +99,10 @@ $mobile: 768px;
     line-height: 4.3vw;
     padding: 4.6vw 20vw 4.5vw 3.6vw;
     &::after {
-      padding: 1.7vw;
+      border-width: 0 1.2px 1.2px 0;
+      padding: 1vw;
       right: 5.3vw;
-      top: 41%;
+      top: 45%;
     }
     br {
       display: block;
@@ -190,6 +192,7 @@ $mobile: 768px;
     }
     li {
       padding-left: 5vw;
+      margin-bottom: 1vw;
       &::before {
         width: 1.8vw;
         left: 0.8vw;

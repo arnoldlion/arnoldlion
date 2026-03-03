@@ -29,12 +29,12 @@ const Footer = () => {
         </div>
       </div>
       <div ref={ref} className="footer_grid">
-        <p className="footer_text">Delivery company address: 101 Diplomat Parkway, Hallandale Beach Fl 33009, 3057332320</p>
-        <div className="footer_documents">
+        <p className="footer_text footer_address">Delivery company address: 101 Diplomat Parkway, Hallandale Beach Fl 33009, 3057332320</p>
+        {/* <div className="footer_documents">
           <Link href="/" className="footer_link">Documents</Link>
           <Link href="/" className="footer_link">Privacy Policy</Link>
-        </div>
-        <p className="footer_text">© 2026 arnoldlion.com</p>
+        </div> */}
+        <p className="footer_text footer_copyright">© 2026 arnoldlion.com</p>
         <div className="footer_developers">
           <p className="footer_text">Developers - </p>
           <a href="https://yellowpine.site/" className="footer_link footer_link_yellowpine">Yellowpine</a>
