@@ -6,13 +6,30 @@ import Image from "next/image";
 import Fancybox from "@/components/fancybox.js";
 import { dmSerifDisplay } from '@/components/fonts';
 
-import Queens1 from "@/images/queens-kings/01_queens_kings.jpg"
-import Queens2 from "@/images/queens-kings/02_queens_kings.jpg"
-import Queens3 from "@/images/queens-kings/03_queens_kings.jpg"
-import Queens4 from "@/images/queens-kings/04_queens_kings.jpg"
-import Queens5 from "@/images/queens-kings/05_queens_kings.jpg"
-import Kings1 from "@/images/queens-kings/06_queens_kings.jpg"
-import Kings2 from "@/images/queens-kings/07_queens_kings.jpg"
+import Kings1 from "@/images/queens-kings/01_kings.jpg"
+import Kings2 from "@/images/queens-kings/02_kings.jpg"
+import Kings3 from "@/images/queens-kings/03_kings.jpg"
+import Kings4 from "@/images/queens-kings/04_kings.jpg"
+import Kings5 from "@/images/queens-kings/05_kings.jpg"
+import Kings6 from "@/images/queens-kings/06_kings.jpg"
+
+import Queens1 from "@/images/queens-kings/01_queens.jpg"
+import Queens2 from "@/images/queens-kings/02_queens.jpg"
+import Queens3 from "@/images/queens-kings/03_queens.jpg"
+import Queens4 from "@/images/queens-kings/04_queens.jpg"
+import Queens5 from "@/images/queens-kings/05_queens.jpg"
+import Queens6 from "@/images/queens-kings/06_queens.jpg"
+import Queens7 from "@/images/queens-kings/07_queens.jpg"
+import Queens8 from "@/images/queens-kings/08_queens.jpg"
+import Queens9 from "@/images/queens-kings/09_queens.jpg"
+import Queens10 from "@/images/queens-kings/10_queens.jpg"
+import Queens11 from "@/images/queens-kings/11_queens.jpg"
+import Queens12 from "@/images/queens-kings/12_queens.jpg"
+import Queens13 from "@/images/queens-kings/13_queens.jpg"
+import Queens14 from "@/images/queens-kings/14_queens.jpg"
+import Queens15 from "@/images/queens-kings/15_queens.jpg"
+import Queens16 from "@/images/queens-kings/16_queens.jpg"
+
 
 
 
@@ -38,7 +55,7 @@ export default function Queens() {
           <h2 className={dmSerifDisplay + " " + styles.queens_title}>Kings</h2>
           <Fancybox>
             <div className={styles.kings_grid}>
-              <a href="/images/queens-kings/06_queens_kings.jpg" className={styles.queens_link}
+              <a href="/images/queens-kings/01_kings.jpg" className={styles.queens_link}
                 data-fancybox="gallery"
                 >
                 <Image
@@ -49,7 +66,7 @@ export default function Queens() {
                   placeholder="blur"
                 />
               </a>
-              <a href="/images/queens-kings/07_queens_kings.jpg" className={styles.queens_link}
+              <a href="/images/queens-kings/02_kings.jpg" className={styles.queens_link}
                 data-fancybox="gallery"
                 >
                 <Image
@@ -60,10 +77,54 @@ export default function Queens() {
                   placeholder="blur"
                 />
               </a>
+              <a href="/images/queens-kings/03_kings.jpg" className={styles.queens_link}
+                data-fancybox="gallery"
+                >
+                <Image
+                  src={Kings3}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
+                  alt=""
+                  className={styles.queens_item_img}
+                  placeholder="blur"
+                />
+              </a>
+              <a href="/images/queens-kings/04_kings.jpg" className={styles.queens_link}
+                data-fancybox="gallery"
+                >
+                <Image
+                  src={Kings4}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
+                  alt=""
+                  className={styles.queens_item_img}
+                  placeholder="blur"
+                />
+              </a>
+              <a href="/images/queens-kings/05_kings.jpg" className={styles.queens_link}
+                data-fancybox="gallery"
+                >
+                <Image
+                  src={Kings5}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
+                  alt=""
+                  className={styles.queens_item_img}
+                  placeholder="blur"
+                />
+              </a>
+              <a href="/images/queens-kings/06_kings.jpg" className={styles.queens_link}
+                data-fancybox="gallery"
+                >
+                <Image
+                  src={Kings6}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
+                  alt=""
+                  className={styles.queens_item_img}
+                  placeholder="blur"
+                />
+              </a>
             </div>
             <h2 className={dmSerifDisplay + " " + styles.queens_title}>Queens</h2>
             <div className={styles.queens_grid}>
-              <a href="/images/queens-kings/01_queens_kings.jpg" className={styles.queens_link + " " + styles.queens_link1}
+              <a href="/images/queens-kings/01_queens.jpg" className={styles.queens_link + " " + styles.queens_link1}
                 data-fancybox="gallery"
                 >
                 <Image
@@ -74,7 +135,7 @@ export default function Queens() {
                   placeholder="blur"
                 />
               </a>
-              <a href="/images/queens-kings/02_queens_kings.jpg" className={styles.queens_link + " " + styles.queens_link2}
+              <a href="/images/queens-kings/02_queens.jpg" className={styles.queens_link + " " + styles.queens_link2}
                 data-fancybox="gallery"
                 >
                 <Image
@@ -85,7 +146,7 @@ export default function Queens() {
                   placeholder="blur"
                 />
               </a>
-              <a href="/images/queens-kings/03_queens_kings.jpg" className={styles.queens_link + " " + styles.queens_link3}
+              <a href="/images/queens-kings/03_queens.jpg" className={styles.queens_link + " " + styles.queens_link3}
                 data-fancybox="gallery"
                 >
                 <Image
@@ -96,7 +157,7 @@ export default function Queens() {
                   placeholder="blur"
                 />
               </a>
-              <a href="/images/queens-kings/04_queens_kings.jpg" className={styles.queens_link + " " + styles.queens_link4}
+              <a href="/images/queens-kings/04_queens.jpg" className={styles.queens_link + " " + styles.queens_link4}
                 data-fancybox="gallery"
                 >
                 <Image
@@ -107,11 +168,132 @@ export default function Queens() {
                   placeholder="blur"
                 />
               </a>
-              <a href="/images/queens-kings/05_queens_kings.jpg" className={styles.queens_link + " " + styles.queens_link5}
+              <a href="/images/queens-kings/05_queens.jpg" className={styles.queens_link + " " + styles.queens_link5}
                 data-fancybox="gallery"
                 >
                 <Image
                   src={Queens5}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
+                  alt=""
+                  className={styles.queens_item_img}
+                  placeholder="blur"
+                />
+              </a>
+              <a href="/images/queens-kings/06_queens.jpg" className={styles.queens_link + " " + styles.queens_link5}
+                data-fancybox="gallery"
+                >
+                <Image
+                  src={Queens6}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
+                  alt=""
+                  className={styles.queens_item_img}
+                  placeholder="blur"
+                />
+              </a>
+              <a href="/images/queens-kings/07_queens.jpg" className={styles.queens_link + " " + styles.queens_link5}
+                data-fancybox="gallery"
+                >
+                <Image
+                  src={Queens7}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
+                  alt=""
+                  className={styles.queens_item_img}
+                  placeholder="blur"
+                />
+              </a>
+              <a href="/images/queens-kings/08_queens.jpg" className={styles.queens_link + " " + styles.queens_link5}
+                data-fancybox="gallery"
+                >
+                <Image
+                  src={Queens8}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
+                  alt=""
+                  className={styles.queens_item_img}
+                  placeholder="blur"
+                />
+              </a>
+              <a href="/images/queens-kings/09_queens.jpg" className={styles.queens_link + " " + styles.queens_link5}
+                data-fancybox="gallery"
+                >
+                <Image
+                  src={Queens9}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
+                  alt=""
+                  className={styles.queens_item_img}
+                  placeholder="blur"
+                />
+              </a>
+              <a href="/images/queens-kings/10_queens.jpg" className={styles.queens_link + " " + styles.queens_link5}
+                data-fancybox="gallery"
+                >
+                <Image
+                  src={Queens10}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
+                  alt=""
+                  className={styles.queens_item_img}
+                  placeholder="blur"
+                />
+              </a>
+              <a href="/images/queens-kings/11_queens.jpg" className={styles.queens_link + " " + styles.queens_link5}
+                data-fancybox="gallery"
+                >
+                <Image
+                  src={Queens11}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
+                  alt=""
+                  className={styles.queens_item_img}
+                  placeholder="blur"
+                />
+              </a>
+              <a href="/images/queens-kings/12_queens.jpg" className={styles.queens_link + " " + styles.queens_link5}
+                data-fancybox="gallery"
+                >
+                <Image
+                  src={Queens12}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
+                  alt=""
+                  className={styles.queens_item_img}
+                  placeholder="blur"
+                />
+              </a>
+              <a href="/images/queens-kings/13_queens.jpg" className={styles.queens_link + " " + styles.queens_link5}
+                data-fancybox="gallery"
+                >
+                <Image
+                  src={Queens13}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
+                  alt=""
+                  className={styles.queens_item_img}
+                  placeholder="blur"
+                />
+              </a>
+              <a href="/images/queens-kings/14_queens.jpg" className={styles.queens_link + " " + styles.queens_link5}
+                data-fancybox="gallery"
+                >
+                <Image
+                  src={Queens14}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
+                  alt=""
+                  className={styles.queens_item_img}
+                  placeholder="blur"
+                />
+              </a>
+              <a href="/images/queens-kings/15_queens.jpg" className={styles.queens_link + " " + styles.queens_link5}
+                data-fancybox="gallery"
+                >
+                <Image
+                  src={Queens15}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
+                  alt=""
+                  className={styles.queens_item_img}
+                  placeholder="blur"
+                />
+              </a>
+              <a href="/images/queens-kings/16_queens.jpg" className={styles.queens_link + " " + styles.queens_link5}
+                data-fancybox="gallery"
+                >
+                <Image
+                  src={Queens16}
                   sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.queens_item_img}
