@@ -18,10 +18,10 @@ export const FaqIndex = () => {
       title: "What vaccinations or documents do the pets have?",
       text: "<p>All kittens come fully vaccinated, microchipped, and dewormed. You’ll get their vet records, and their pedigree papers will either come with them or be emailed to you shortly after they arrive. We'll also mail you the official pedigree documents with your name listed as the new owner.</p>"
     },
-    {
-      title: "What happens if the pet arrives sick?",
-      text: "<p>Before leaving us, each kitten sees a vet to make sure they’re healthy.</p>"
-    },
+    // {
+    //   title: "What happens if the pet arrives sick?",
+    //   text: "<p>Before leaving us, each kitten sees a vet to make sure they’re healthy.</p>"
+    // },
     // {
     //   title: "",
     //   text: "<p></p><p></p>"
