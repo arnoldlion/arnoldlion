@@ -43,6 +43,9 @@ import Reviews34 from "@/images/reviews/34_reviews.jpg"
 import Reviews35 from "@/images/reviews/35_reviews.jpg"
 import Reviews36 from "@/images/reviews/36_reviews.jpg"
 import Reviews37 from "@/images/reviews/37_reviews.jpg"
+import Reviews38 from "@/images/reviews/38_reviews.jpg"
+import Reviews39 from "@/images/reviews/39_reviews.jpg"
+import Reviews40 from "@/images/reviews/40_reviews.jpg"
 
 
 export default function Reviews() {
@@ -61,6 +64,40 @@ export default function Reviews() {
           <a href="https://www.facebook.com/groups/734815114264815/permalink/1316628429416811/?mibextid=wwXIfr&rdid=6NmY6i8IBDtgBqpP#" target="_blank" className={styles.reviews_social_link}>Look reviews on Facebook</a>
           <Fancybox>
             <div className={styles.reviews_grid}>
+              <a href="/images/reviews/38_reviews.jpg" className={styles.reviews_link}
+                data-fancybox="gallery"
+                >
+                <Image
+                  src={Reviews38}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
+                  alt=""
+                  className={styles.reviews_item_img}
+                  placeholder="blur"
+                />
+              </a>
+              <a href="/images/reviews/39_reviews.jpg" className={styles.reviews_link}
+                data-fancybox="gallery"
+                >
+                <Image
+                  src={Reviews39}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
+                  alt=""
+                  className={styles.reviews_item_img}
+                  placeholder="blur"
+                />
+              </a>
+              <a href="/images/reviews/40_reviews.jpg" className={styles.reviews_link}
+                data-fancybox="gallery"
+                >
+                <Image
+                  src={Reviews40}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
+                  alt=""
+                  className={styles.reviews_item_img}
+                  placeholder="blur"
+                />
+              </a>
+
               <a href="/images/reviews/01_reviews.jpg" className={styles.reviews_link}
                 data-fancybox="gallery"
                 >
