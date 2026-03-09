@@ -206,9 +206,9 @@ span {
 .header__div_logo {
   display: flex;
   justify-content: center;
-  padding: 3.7vw 2.7vw 5vw;
+  padding: 3.3vw 2.7vw 3.5vw;
   @media screen and (min-width: $fullscreen) {
-    padding: 56px 41px 76px;
+    padding: 50px 41px 53px;
   }
   @media screen and (max-width: $mobile) {
     padding: 13.3vw 15.2vw 9vw;
@@ -216,19 +216,17 @@ span {
   }
 }
 .header_logo {
-  width: 17.9vw;
-  height: 11.7vw;
+  width: 17vw;
+  height: 11.1vw;
   // background-image: url(../../svg/logo.svg);
   background-image: url(../../images/logo.png);
   background-size: contain;
   background-repeat: no-repeat;
   @media screen and (min-width: $fullscreen) {
-    width: 272px;
-    height: 178px;
+    width: 258px;
+    height: 169px;
   }
   @media screen and (max-width: $mobile) {
-    // width: 61.9vw;
-    // height: 40.7vw;
     width: 56vw;
     height: 36.7vw;
   }
