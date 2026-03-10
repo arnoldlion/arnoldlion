@@ -22,7 +22,7 @@ export default function About() {
       </Head>
       <Layout>
         <div className="content">
-          <h1 className={dmSerifDisplay + " " + styles.about_title}>About</h1>
+          <h1 className={dmSerifDisplay + " " + styles.about_title}>About Us</h1>
           <div className={styles.about_wrap}>
             <div className={styles.about_content}>
               <h2 className={dmSerifDisplay + " " + styles.about_intro_title}>My Story</h2>
