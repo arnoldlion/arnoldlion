@@ -37,7 +37,7 @@ export const Intro = ({firstSlice}) => {
                         <p className={styles.kitten_intro_price}>Breed: ${firstSlice?.breed_price}</p>
                     </div>
                     <div className={styles.kitten_intro_conditions}>
-                        <p className={styles.kitten_intro_conditions_p + " " + styles.kitten_intro_conditions_p1}>Delivery charges are paid separately from the kitten’s cost</p>
+                        <p className={styles.kitten_intro_conditions_p + " " + styles.kitten_intro_conditions_p1}>The delivery cost is included in the kitten's price (USA & Europe)</p>
                         <p className={styles.kitten_intro_conditions_p + " " + styles.kitten_intro_conditions_p2}>We send additional photos and videos of the kitten and its parents</p>
                         <p className={styles.kitten_intro_conditions_p + " " + styles.kitten_intro_conditions_p3}>We FaceTime our kittens</p>
                     </div>
