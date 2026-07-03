@@ -12,6 +12,10 @@ import Kings3 from "@/images/queens-kings/03_kings.jpg"
 import Kings4 from "@/images/queens-kings/04_kings.jpg"
 import Kings5 from "@/images/queens-kings/05_kings.jpg"
 import Kings6 from "@/images/queens-kings/06_kings.jpg"
+import Kings7 from "@/images/queens-kings/07_kings.jpg"
+import Kings8 from "@/images/queens-kings/08_kings.jpg"
+import Kings9 from "@/images/queens-kings/09_kings.jpg"
+
 
 import Queens1 from "@/images/queens-kings/01_queens.jpg"
 import Queens2 from "@/images/queens-kings/02_queens.jpg"
@@ -115,6 +119,39 @@ export default function Queens() {
                 >
                 <Image
                   src={Kings6}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
+                  alt=""
+                  className={styles.queens_item_img}
+                  placeholder="blur"
+                />
+              </a>
+              <a href="/images/queens-kings/07_kings.jpg" className={styles.queens_link}
+                data-fancybox="gallery"
+                >
+                <Image
+                  src={Kings7}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
+                  alt=""
+                  className={styles.queens_item_img}
+                  placeholder="blur"
+                />
+              </a>
+              <a href="/images/queens-kings/08_kings.jpg" className={styles.queens_link}
+                data-fancybox="gallery"
+                >
+                <Image
+                  src={Kings8}
+                  sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
+                  alt=""
+                  className={styles.queens_item_img}
+                  placeholder="blur"
+                />
+              </a>
+              <a href="/images/queens-kings/09_kings.jpg" className={styles.queens_link}
+                data-fancybox="gallery"
+                >
+                <Image
+                  src={Kings9}
                   sizes="(max-width: 768px) 41.1vw, (max-width: 1520px) 18.65vw, 283px"
                   alt=""
                   className={styles.queens_item_img}
