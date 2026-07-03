@@ -454,6 +454,7 @@ $mobile: 768px;
   border: 1px solid #3D3D3D;
   padding: 2vw 1.6vw 2.6vw;
   margin-bottom: 2.1vw;
+  position: relative;
   @media screen and (min-width: $fullscreen) {
     padding: 30px 24px 40px;
     margin-bottom: 32px;
@@ -461,6 +462,30 @@ $mobile: 768px;
   @media screen and (max-width: $mobile) {
     padding: 6vw 5.6vw 7.2vw;
     margin-bottom: 6vw;
+  }
+}
+.kitten_intro_middle_delivery_label {
+  font-size: 0.7vw;
+  line-height: 1.4vw;
+  background-color: #FFB800;
+  border-radius: 10px;
+  position: absolute;
+  top: -1vw;
+  right: 2.2vw;
+  padding: 0.2vw 0.8vw;
+  @media screen and (min-width: $fullscreen) {
+    font-size: 11px;
+    line-height: 21px;
+    top: -15px;
+    right: 33px;
+    padding: 3px 12px;
+  }
+  @media screen and (max-width: $mobile) {
+    font-size: 1.9vw;
+    line-height: 3vw;
+    top: -3vw;
+    right: 6vw;
+    padding: 1.5vw 2.5vw 1.3vw;
   }
 }
 .kitten_intro_middle_prices {

@@ -32,6 +32,7 @@ export const Intro = ({firstSlice}) => {
                     <p className={styles.kitten_intro_text_p}> {firstSlice?.short_description  }</p>
                 </div>
                 {!isSold&&<div className={styles.kitten_intro_middle}>
+                    <p className={styles.kitten_intro_middle_delivery_label}>Including delivery</p>
                     <div className={styles.kitten_intro_middle_prices}>
                         <p className={styles.kitten_intro_price}>Pet: ${firstSlice?.pet_price}</p>
                         <p className={styles.kitten_intro_price}>Breed: ${firstSlice?.breed_price}</p>
