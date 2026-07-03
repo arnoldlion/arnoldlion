@@ -155,22 +155,6 @@ $mobile: 768px;
   font-weight: 700;
   padding: 0.3vw 0.9vw;
   color: #FFFFFF;
-  // position: relative;
-  // z-index: 2;
-  // &::after {
-  //   content: "";
-  //   position: absolute;
-  //   top: 0;
-  //   right: 0;
-  //   bottom: 0;
-  //   left: 0;
-  //   border-radius: 14px;
-  //   // background-color: #2E2E2E;
-  //   background: rgba(0,0,0, 0.3);
-  //   backdrop-filter: blur(4px);
-  //   z-index: -1;
-  //   border: 1px solid rgba(0, 0, 0, 0.1);
-  // }
   @media screen and (min-width: $fullscreen) {
     font-size: 22px;
     line-height: 32px;
@@ -185,25 +169,9 @@ $mobile: 768px;
 .catalog_item_name {
   font-size: 1.45vw;
   line-height: 2.1vw;
-  font-weight: 700;
+  font-weight: 500;
   padding: 0.3vw 0.9vw;
   color: #FFFFFF;
-  // position: relative;
-  // z-index: 2;
-  // &::after {
-  //   content: "";
-  //   position: absolute;
-  //   top: 0;
-  //   right: 0;
-  //   bottom: 0;
-  //   left: 0;
-  //   border-radius: 14px;
-  //   // background-color: #2E2E2E;
-  //   background: rgba(0,0,0, 0.3);
-  //   backdrop-filter: blur(4px);
-  //   z-index: -1;
-  //   border: 1px solid rgba(0, 0, 0, 0.1);
-  // }
   @media screen and (min-width: $fullscreen) {
     font-size: 22px;
     line-height: 32px;
