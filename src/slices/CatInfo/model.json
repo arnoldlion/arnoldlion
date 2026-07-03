@@ -19,6 +19,13 @@
             "placeholder": ""
           }
         },
+        "pet_name": {
+          "type": "Text",
+          "config": {
+            "label": "Pet name",
+            "placeholder": ""
+          }
+        },
         "img1_catlog": {
           "type": "Image",
           "config": {

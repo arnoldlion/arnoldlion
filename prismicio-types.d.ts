@@ -97,6 +97,16 @@ export interface CatInfoSliceDefaultPrimary {
   h1_title: prismic.KeyTextField;
 
   /**
+   * Pet name field in *CatInfo → Default → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: cat_info.default.primary.pet_name
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  pet_name: prismic.KeyTextField;
+
+  /**
    * catalog preview image field in *CatInfo → Default → Primary*
    *
    * - **Field Type**: Image

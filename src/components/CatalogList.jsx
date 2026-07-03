@@ -23,6 +23,8 @@ export const CatalogList =({cats ,  isSold})=> {
                     />
                     {!isSold && <div className={styles.catalog_item_top}>
                         <p className={styles.catalog_item_price}>${info?.pet_price || 0}</p>
+                        {/* <p className={styles.catalog_item_name}>${info?.pet_name || 0}</p> */}
+                        <p className={styles.catalog_item_name}>{info.pet_name}</p>
                     </div>}
                     <div className={styles.catalog_item_bottom}>
                         {!isSold && <p className={styles.catalog_item_p}>{info.gender}</p>}
